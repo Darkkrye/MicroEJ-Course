@@ -1,0 +1,5 @@
+#Wed Mar 22 12:14:57 CET 2017
+version=0.1.0
+name=PBO1
+types=java.util.logging.*,java.security.*,ej.components.*,ej.wadapps.management.*,ej.components.registry.util.*,ej.wadapps.standalone.*,ej.wadapps.registry.*,java.net.*,org.eclipse.core.runtime.*,ej.components.dependencyinjection.*,ej.components.dependencyinjection.util.*,ej.wadapps.management.util.*,moc.mej.lab.*,java.lang.*,ej.io.progress.*,android.net.*,ej.wadapps.registry.util.*,ej.wadapps.storage.kf.*,ej.components.registry.impl.*,java.io.*,java.lang.ref.*,ej.wadapps.storage.kf.local.*,ej.observable.*,java.lang.annotation.*,java.lang.reflect.*,ej.components.registry.*,properties.*,__PBO1__.generated.*,ej.kf.*,ej.wadapps.admin.*,ej.wadapps.storage.*,java.util.*,ej.wadapps.intern.*,ej.bon.*,ej.net.*,ej.wadapps.management.activators.*,ej.wadapps.app.*,ej.util.logging.handler.*
+entryPoint=__PBO1__.generated.PBO1EntryPoint

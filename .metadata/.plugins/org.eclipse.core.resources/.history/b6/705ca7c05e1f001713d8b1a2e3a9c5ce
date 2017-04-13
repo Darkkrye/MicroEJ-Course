@@ -1,0 +1,35 @@
+package moc.lab;
+
+import ej.microui.display.Colors;
+import ej.microui.display.Display;
+import ej.microui.display.Displayable;
+import ej.microui.display.GraphicsContext;
+import ej.microui.util.EventHandler;
+
+public class Program extends Displayable implements EventHandler {
+
+	public Program(Display display) {
+		super(display);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public boolean handleEvent(int event) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void paint(GraphicsContext g) {
+		// TODO Auto-generated method stub
+		g.setColor(Colors.GRAY);
+		g.fillCircle(10, 10, 200);
+	}
+
+	@Override
+	public EventHandler getController() {
+		// TODO Auto-generated method stub
+		return this;
+	}
+
+}

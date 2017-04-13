@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Application-Id: PBO2
+Application-Version: 0.1.0
+Application-PrintableName: PBO2
+Application-Description: PBO2
+Application-Activities: moc.mej.lab.MyActivity
+

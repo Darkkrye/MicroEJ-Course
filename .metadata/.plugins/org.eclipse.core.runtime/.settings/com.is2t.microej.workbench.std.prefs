@@ -1,0 +1,3 @@
+MICROEJ_INSTALL_LOCATION=/Users/Pierre/.microej/repositories/MicroEJ-Studio-4.0.0
+MICROEJ_JPF_1=\#\n\#Wed Apr 12 10\:45\:05 CEST 2017\nlevel\=dev\nversion\=1.8.0\nedition\=STD\nprintableName\=VDE-STORE-STM32F746GDISCO-8SG7V\ntoolchainPrintableName\=Keil 5 (ARMCC)\ntechVersion\=1.6\nlicenseTag\=IS2T_J8F5C\ntoolchain\=CM7hardfp_ARMCC5\nworkbenchMinVersion\=2.5.0\nbaseline\=14\narchitecture\=CM7\nhardwarePartNumber\=STM32F746GDISCO\nbuildLabel\=201612271113\nvendorUrl\=http\\\://developer.microej.com/4.0/sdk/license\nprovider\=MicroEJ\narchitecturePrintableName\=STMicroelectronics STM32F7J\narchivePattern\=VDE-STORE-STM32F746GDISCO-8SG7V\nname\=VDE-STORE-STM32F746GDISCO-8SG7V\n
+eclipse.preferences.version=1

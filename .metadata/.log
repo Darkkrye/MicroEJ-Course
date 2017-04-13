@@ -1,0 +1,353 @@
+!SESSION 2017-03-02 11:01:15.039 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Framework arguments:  -keyring /Users/Pierre/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Pierre/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-02 11:01:28.574
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-03-02 11:01:32.831
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-03-02 11:01:32.855
+!MESSAGE IvyDE plugin started
+
+!ENTRY com.is2t.microej.mpp 1 0 2017-03-02 11:01:36.441
+!MESSAGE Closing welcome introduction
+
+!ENTRY com.is2t.microej.mpp 1 0 2017-03-02 11:01:36.535
+!MESSAGE Displaying 'http://developer.microej.com/4.0/studio/welcome/' in MicroEJWebBrowserEditor
+!SESSION 2017-03-22 09:49:32.060 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Framework arguments:  -keyring /Users/Pierre/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Pierre/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-22 09:49:55.464
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-03-22 09:49:58.030
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-03-22 09:49:58.055
+!MESSAGE IvyDE plugin started
+
+!ENTRY com.is2t.microej.wadapps.workbench 1 0 2017-03-22 11:39:38.644
+!MESSAGE Wadapps Workbench started.
+
+!ENTRY com.is2t.eclipse.plugin.easyant4e.offlinerepo 1 0 2017-03-22 11:42:58.993
+!MESSAGE EasyAnt4EclipseOfflineRepoActivator plugin started.
+
+!ENTRY com.is2t.eclipse.plugin.easyant4e.offlinerepo 1 0 2017-03-22 11:42:58.994
+!MESSAGE Installing repositories in '/Applications/MicroEJ/MicroEJ Studio-4.0.0/rcp/MicroEJ-Studio-4.0.0.app/Contents/Eclipse/configuration/org.eclipse.osgi/7/data/repositories'.
+
+!ENTRY com.is2t.eclipse.plugin.easyant4e.offlinerepo 1 0 2017-03-22 11:42:59.564
+!MESSAGE Repository 'is2t_repo' is installed.
+
+!ENTRY com.is2t.eclipse.plugin.easyant4e.offlinerepo 1 0 2017-03-22 11:42:59.565
+!MESSAGE Repository installation is complete.
+
+!ENTRY org.apache.ivyde.eclipse 2 0 2017-03-22 11:43:01.047
+!MESSAGE IvyDE container states of the project PBO1 doesn't exist.
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-03-22 12:18:34.837
+!MESSAGE API library EDC-1.2.3 has been mapped to API compatible implementation library EDC-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-03-22 12:18:34.837
+!MESSAGE API library KF-1.4.2 has been mapped to API compatible implementation library KF-1.4 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-03-22 12:18:34.838
+!MESSAGE API library BON-1.2.3 has been mapped to API compatible implementation library BON-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-03-22 12:18:34.838
+!MESSAGE API library FS-2.0.6 has been mapped to API compatible implementation library FS-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-03-22 12:18:34.838
+!MESSAGE API library NET-1.0.2 has been mapped to API compatible implementation library NET-1.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY org.apache.ivyde.eclipse 2 0 2017-03-22 12:52:09.242
+!MESSAGE IvyDE container states of the project PBO2 doesn't exist.
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-03-22 13:04:28.623
+!MESSAGE API library EDC-1.2.3 has been mapped to API compatible implementation library EDC-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-03-22 13:04:28.625
+!MESSAGE API library KF-1.4.2 has been mapped to API compatible implementation library KF-1.4 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-03-22 13:04:28.625
+!MESSAGE API library MICROUI-2.0.5 has been mapped to API compatible implementation library MICROUI-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-03-22 13:04:28.625
+!MESSAGE API library BON-1.2.3 has been mapped to API compatible implementation library BON-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-03-22 13:04:28.625
+!MESSAGE API library FS-2.0.6 has been mapped to API compatible implementation library FS-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-03-22 13:04:28.625
+!MESSAGE API library NET-1.0.2 has been mapped to API compatible implementation library NET-1.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.wadapps.workbench 1 0 2017-03-22 14:12:25.380
+!MESSAGE Wadapps Workbench stopping...
+
+!ENTRY com.is2t.eclipse.plugin.easyant4e.offlinerepo 1 0 2017-03-22 14:12:25.990
+!MESSAGE Stoping EasyAnt4EclipseOfflineRepoActivator...
+!SESSION 2017-04-12 09:57:17.739 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Framework arguments:  -keyring /Users/Pierre/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Pierre/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2017-04-12 09:57:35.063
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.is2t.microej.wadapps.workbench 1 0 2017-04-12 09:57:36.130
+!MESSAGE Wadapps Workbench started.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-04-12 09:57:36.886
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-04-12 09:57:36.907
+!MESSAGE IvyDE plugin started
+
+!ENTRY com.is2t.eclipse.plugin.easyant4e.offlinerepo 1 0 2017-04-12 10:12:17.935
+!MESSAGE EasyAnt4EclipseOfflineRepoActivator plugin started.
+
+!ENTRY com.is2t.eclipse.plugin.easyant4e.offlinerepo 1 0 2017-04-12 10:12:17.937
+!MESSAGE No need to install repositories.
+
+!ENTRY org.apache.ivyde.eclipse 2 0 2017-04-12 10:12:19.424
+!MESSAGE IvyDE container states of the project PBO3 doesn't exist.
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:44:49.918
+!MESSAGE API library EDC-1.2.3 has been mapped to API compatible implementation library EDC-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:44:49.919
+!MESSAGE API library KF-1.4.2 has been mapped to API compatible implementation library KF-1.4 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:44:49.919
+!MESSAGE API library MICROUI-2.0.5 has been mapped to API compatible implementation library MICROUI-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:44:49.919
+!MESSAGE API library BON-1.2.3 has been mapped to API compatible implementation library BON-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:44:49.920
+!MESSAGE API library FS-2.0.6 has been mapped to API compatible implementation library FS-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:44:49.920
+!MESSAGE API library NET-1.0.2 has been mapped to API compatible implementation library NET-1.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:45:05.106
+!MESSAGE API library EDC-1.2.3 has been mapped to API compatible implementation library EDC-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:45:05.107
+!MESSAGE API library KF-1.4.2 has been mapped to API compatible implementation library KF-1.4 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:45:05.107
+!MESSAGE API library MICROUI-2.0.5 has been mapped to API compatible implementation library MICROUI-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:45:05.107
+!MESSAGE API library BON-1.2.3 has been mapped to API compatible implementation library BON-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:45:05.107
+!MESSAGE API library FS-2.0.6 has been mapped to API compatible implementation library FS-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:45:05.107
+!MESSAGE API library NET-1.0.2 has been mapped to API compatible implementation library NET-1.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:46:54.822
+!MESSAGE API library EDC-1.2.3 has been mapped to API compatible implementation library EDC-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:46:54.822
+!MESSAGE API library KF-1.4.2 has been mapped to API compatible implementation library KF-1.4 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:46:54.822
+!MESSAGE API library MICROUI-2.0.5 has been mapped to API compatible implementation library MICROUI-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:46:54.822
+!MESSAGE API library BON-1.2.3 has been mapped to API compatible implementation library BON-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:46:54.823
+!MESSAGE API library FS-2.0.6 has been mapped to API compatible implementation library FS-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 10:46:54.823
+!MESSAGE API library NET-1.0.2 has been mapped to API compatible implementation library NET-1.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:03:23.551
+!MESSAGE API library EDC-1.2.3 has been mapped to API compatible implementation library EDC-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:03:23.552
+!MESSAGE API library KF-1.4.2 has been mapped to API compatible implementation library KF-1.4 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:03:23.552
+!MESSAGE API library MICROUI-2.0.5 has been mapped to API compatible implementation library MICROUI-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:03:23.552
+!MESSAGE API library BON-1.2.3 has been mapped to API compatible implementation library BON-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:03:23.553
+!MESSAGE API library FS-2.0.6 has been mapped to API compatible implementation library FS-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:03:23.553
+!MESSAGE API library NET-1.0.2 has been mapped to API compatible implementation library NET-1.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:03:56.340
+!MESSAGE API library EDC-1.2.3 has been mapped to API compatible implementation library EDC-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:03:56.340
+!MESSAGE API library KF-1.4.2 has been mapped to API compatible implementation library KF-1.4 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:03:56.341
+!MESSAGE API library MICROUI-2.0.5 has been mapped to API compatible implementation library MICROUI-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:03:56.341
+!MESSAGE API library BON-1.2.3 has been mapped to API compatible implementation library BON-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:03:56.341
+!MESSAGE API library FS-2.0.6 has been mapped to API compatible implementation library FS-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:03:56.341
+!MESSAGE API library NET-1.0.2 has been mapped to API compatible implementation library NET-1.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:07:34.559
+!MESSAGE API library EDC-1.2.3 has been mapped to API compatible implementation library EDC-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:07:34.559
+!MESSAGE API library KF-1.4.2 has been mapped to API compatible implementation library KF-1.4 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:07:34.560
+!MESSAGE API library MICROUI-2.0.5 has been mapped to API compatible implementation library MICROUI-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:07:34.560
+!MESSAGE API library BON-1.2.3 has been mapped to API compatible implementation library BON-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:07:34.560
+!MESSAGE API library FS-2.0.6 has been mapped to API compatible implementation library FS-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:07:34.561
+!MESSAGE API library NET-1.0.2 has been mapped to API compatible implementation library NET-1.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:10:56.233
+!MESSAGE API library EDC-1.2.3 has been mapped to API compatible implementation library EDC-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:10:56.234
+!MESSAGE API library KF-1.4.2 has been mapped to API compatible implementation library KF-1.4 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:10:56.234
+!MESSAGE API library MICROUI-2.0.5 has been mapped to API compatible implementation library MICROUI-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:10:56.234
+!MESSAGE API library BON-1.2.3 has been mapped to API compatible implementation library BON-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:10:56.234
+!MESSAGE API library FS-2.0.6 has been mapped to API compatible implementation library FS-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:10:56.235
+!MESSAGE API library NET-1.0.2 has been mapped to API compatible implementation library NET-1.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:12:34.465
+!MESSAGE API library EDC-1.2.3 has been mapped to API compatible implementation library EDC-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:12:34.465
+!MESSAGE API library KF-1.4.2 has been mapped to API compatible implementation library KF-1.4 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:12:34.466
+!MESSAGE API library MICROUI-2.0.5 has been mapped to API compatible implementation library MICROUI-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:12:34.466
+!MESSAGE API library BON-1.2.3 has been mapped to API compatible implementation library BON-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:12:34.466
+!MESSAGE API library FS-2.0.6 has been mapped to API compatible implementation library FS-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:12:34.467
+!MESSAGE API library NET-1.0.2 has been mapped to API compatible implementation library NET-1.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:15:47.578
+!MESSAGE API library EDC-1.2.3 has been mapped to API compatible implementation library EDC-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:15:47.579
+!MESSAGE API library KF-1.4.2 has been mapped to API compatible implementation library KF-1.4 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:15:47.579
+!MESSAGE API library MICROUI-2.0.5 has been mapped to API compatible implementation library MICROUI-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:15:47.579
+!MESSAGE API library BON-1.2.3 has been mapped to API compatible implementation library BON-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:15:47.579
+!MESSAGE API library FS-2.0.6 has been mapped to API compatible implementation library FS-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-12 11:15:47.580
+!MESSAGE API library NET-1.0.2 has been mapped to API compatible implementation library NET-1.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.wadapps.workbench 1 0 2017-04-12 14:44:36.789
+!MESSAGE Wadapps Workbench stopping...
+
+!ENTRY com.is2t.eclipse.plugin.easyant4e.offlinerepo 1 0 2017-04-12 14:44:37.393
+!MESSAGE Stoping EasyAnt4EclipseOfflineRepoActivator...
+!SESSION 2017-04-13 09:48:38.338 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Framework arguments:  -keyring /Users/Pierre/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Pierre/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2017-04-13 09:48:45.799
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.is2t.microej.wadapps.workbench 1 0 2017-04-13 09:48:46.931
+!MESSAGE Wadapps Workbench started.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-04-13 09:48:47.643
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-04-13 09:48:47.666
+!MESSAGE IvyDE plugin started
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-13 10:01:25.380
+!MESSAGE API library EDC-1.2.3 has been mapped to API compatible implementation library EDC-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-13 10:01:25.381
+!MESSAGE API library KF-1.4.2 has been mapped to API compatible implementation library KF-1.4 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-13 10:01:25.381
+!MESSAGE API library MICROUI-2.0.5 has been mapped to API compatible implementation library MICROUI-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-13 10:01:25.382
+!MESSAGE API library BON-1.2.3 has been mapped to API compatible implementation library BON-1.2 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-13 10:01:25.382
+!MESSAGE API library FS-2.0.6 has been mapped to API compatible implementation library FS-2.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.workbench.std 1 0 2017-04-13 10:01:25.382
+!MESSAGE API library NET-1.0.2 has been mapped to API compatible implementation library NET-1.0 in VDE-STORE-STM32F746GDISCO-8SG7V
+
+!ENTRY com.is2t.microej.wadapps.workbench 1 0 2017-04-13 10:40:17.897
+!MESSAGE Wadapps Workbench stopping...
+!SESSION 2017-04-13 20:38:23.827 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Framework arguments:  -keyring /Users/Pierre/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Pierre/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2017-04-13 20:38:34.653
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.is2t.microej.wadapps.workbench 1 0 2017-04-13 20:38:35.876
+!MESSAGE Wadapps Workbench started.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-04-13 20:38:36.683
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-04-13 20:38:36.706
+!MESSAGE IvyDE plugin started

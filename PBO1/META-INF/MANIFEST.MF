@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Application-Id: PBO1
+Application-Version: 0.1.0
+Application-PrintableName: PBO1
+Application-Description: PBO1
+Application-BackgroundServices: moc.mej.lab.MyHelloBkg

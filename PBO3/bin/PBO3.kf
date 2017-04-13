@@ -1,0 +1,5 @@
+#Thu Apr 13 10:01:24 CEST 2017
+version=0.1.0
+name=PBO3
+types=java.util.logging.*,__PBO3__.generated.*,java.security.*,ej.components.*,ej.microui.event.*,ej.wadapps.management.*,ej.components.registry.util.*,ej.wadapps.standalone.*,ej.microui.event.controller.*,ej.wadapps.registry.*,ej.microui.*,java.net.*,org.eclipse.core.runtime.*,ej.microui.display.transform.*,ej.microui.led.*,ej.components.dependencyinjection.*,ej.components.dependencyinjection.util.*,ej.wadapps.management.util.*,ej.microui.util.*,java.lang.*,ej.microui.display.shape.*,ej.io.progress.*,android.net.*,ej.wadapps.registry.util.*,ej.wadapps.storage.kf.*,ej.components.registry.impl.*,java.io.*,java.lang.ref.*,ej.wadapps.storage.kf.local.*,ej.observable.*,java.lang.annotation.*,java.lang.reflect.*,ej.components.registry.*,properties.*,moc.lab.*,ej.kf.*,ej.microui.event.generator.*,ej.wadapps.admin.*,ej.wadapps.storage.*,java.util.*,ej.wadapps.intern.*,ej.bon.*,ej.net.*,ej.wadapps.management.activators.*,ej.microui.display.*,ej.wadapps.app.*,ej.util.logging.handler.*
+entryPoint=__PBO3__.generated.PBO3EntryPoint
