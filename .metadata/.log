@@ -354,3 +354,22 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Pierr
 
 !ENTRY com.is2t.microej.wadapps.workbench 1 0 2017-04-13 20:43:43.228
 !MESSAGE Wadapps Workbench stopping...
+!SESSION 2017-04-13 20:47:56.748 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Framework arguments:  -keyring /Users/Pierre/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Pierre/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2017-04-13 20:48:05.319
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.is2t.microej.wadapps.workbench 1 0 2017-04-13 20:48:06.295
+!MESSAGE Wadapps Workbench started.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-04-13 20:48:07.087
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-04-13 20:48:07.103
+!MESSAGE IvyDE plugin started
