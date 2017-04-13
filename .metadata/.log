@@ -351,3 +351,6 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Pierr
 
 !ENTRY org.apache.ivyde.eclipse 1 0 2017-04-13 20:38:36.706
 !MESSAGE IvyDE plugin started
+
+!ENTRY com.is2t.microej.wadapps.workbench 1 0 2017-04-13 20:43:43.228
+!MESSAGE Wadapps Workbench stopping...
