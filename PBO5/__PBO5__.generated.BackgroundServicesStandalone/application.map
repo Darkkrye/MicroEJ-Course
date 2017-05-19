@@ -1,0 +1,1021 @@
+<lscmap name="default">
+	<property name="level" value="dev"/>
+	<property name="version" value="1.8.0"/>
+	<property name="edition" value="STD"/>
+	<property name="printableName" value="VDE-STORE-STM32F746GDISCO-8SG7V"/>
+	<property name="toolchainPrintableName" value="Keil 5 (ARMCC)"/>
+	<property name="jpf.dir" value="/Users/Pierre/.microej/repositories/MicroEJ-Studio-4.0.0/1.6/sd001"/>
+	<property name="techVersion" value="1.6"/>
+	<property name="licenseTag" value="IS2T_J8F5C"/>
+	<property name="toolchain" value="CM7hardfp_ARMCC5"/>
+	<property name="workbenchMinVersion" value="2.5.0"/>
+	<property name="baseline" value="14"/>
+	<property name="architecture" value="CM7"/>
+	<property name="hardwarePartNumber" value="STM32F746GDISCO"/>
+	<property name="buildLabel" value="201612271113"/>
+	<property name="vendorUrl" value="http://developer.microej.com/4.0/sdk/license"/>
+	<property name="provider" value="MicroEJ"/>
+	<property name="architecturePrintableName" value="STMicroelectronics STM32F7J"/>
+	<property name="archivePattern" value="VDE-STORE-STM32F746GDISCO-8SG7V"/>
+	<property name="name" value="VDE-STORE-STM32F746GDISCO-8SG7V"/>
+	<inputUnit name="/Users/Pierre/.microej/repositories/MicroEJ-Studio-4.0.0/1.6/sd001/firmware/firmware.out" id="0"/>
+	<inputUnit name="/Users/Pierre/.microej/workspaces/MicroEJ-Studio-4.0.0/PBO5/__PBO5__.generated.BackgroundServicesStandalone/feature/feature_soar.o" id="1"/>
+	<inputUnit name="/Users/Pierre/.microej/repositories/MicroEJ-Studio-4.0.0/1.6/sd001/MICROJVM/dynamicLink/link.lscf" id="2"/>
+	<symbol id="0" name="_java_Ljava_util_TimerTask_method__4init_5_V" value="0x08048f1c" inputUnit="0"/>
+	<symbol id="1" name="_java_Lej_observable_ObserverProxy_method_update_V" value="0x00000918" inputUnit="1" target="0"/>
+	<symbol id="2" name="_java_Lej_observable_Observer_method_update_V_descriptor" value="0x00000204" inputUnit="1" target="1"/>
+	<symbol id="3" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_addObserver_Lej_observable_Observer_V" value="0x0000093c" inputUnit="1" target="2"/>
+	<symbol id="4" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_deleteObserver_Lej_observable_Observer_V" value="0x00000964" inputUnit="1" target="3"/>
+	<symbol id="5" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_add_Lej_wadapps_app_BackgroundService_V" value="0x0000098c" inputUnit="1" target="4"/>
+	<symbol id="6" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_remove_Lej_wadapps_app_BackgroundService_V" value="0x000009b4" inputUnit="1" target="5"/>
+	<symbol id="7" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_getBackgroundServices_ALej_wadapps_app_BackgroundService" value="0x000009dc" inputUnit="1" target="6"/>
+	<symbol id="8" name="_java_Lej_wadapps_management_BackgroundServicesList_method_addObserver_Lej_observable_Observer_V_descriptor" value="0x0000022c" inputUnit="1" target="7"/>
+	<symbol id="9" name="_java_Lej_wadapps_management_BackgroundServicesList_method_deleteObserver_Lej_observable_Observer_V_descriptor" value="0x00000258" inputUnit="1" target="8"/>
+	<symbol id="10" name="_java_Lej_wadapps_management_BackgroundServicesList_method_add_Lej_wadapps_app_BackgroundService_V_descriptor" value="0x00000284" inputUnit="1" target="9"/>
+	<symbol id="11" name="_java_Lej_wadapps_management_BackgroundServicesList_method_remove_Lej_wadapps_app_BackgroundService_V_descriptor" value="0x000002b0" inputUnit="1" target="10"/>
+	<symbol id="12" name="_java_Lej_wadapps_management_BackgroundServicesList_method_getBackgroundServices_ALej_wadapps_app_BackgroundService_descriptor" value="0x000002dc" inputUnit="1" target="11"/>
+	<symbol id="13" name="_java_Ljava_lang_Throwable" value="0x0800b630" inputUnit="0"/>
+	<symbol id="14" name="_java_Ljava_lang_Runnable" value="0x0800d12c" inputUnit="0"/>
+	<symbol id="15" name="_java_Pjava" value="0x00000580" inputUnit="1" target="12"/>
+	<symbol id="16" name="_java_Pmoc" value="0x0000058c" inputUnit="1" target="13"/>
+	<symbol id="17" name="_java_Lej_wadapps_app_BackgroundService_method_onStart_V_descriptor" value="0x00000304" inputUnit="1" target="14"/>
+	<symbol id="18" name="_java_Lej_wadapps_app_BackgroundService_method_onStop_V_descriptor" value="0x0000032c" inputUnit="1" target="15"/>
+	<symbol id="19" name="_java_Lej_hal_gpio_GPIO$Mode_field_DIGITAL_1OUTPUT_Lej_hal_gpio_GPIO$Mode" value="0x20026db0" inputUnit="0"/>
+	<symbol id="20" name="_java_Lej_hal_gpio_GPIO$Mode_field_DIGITAL_1INPUT_Lej_hal_gpio_GPIO$Mode" value="0x20026d50" inputUnit="0"/>
+	<symbol id="21" name="_java_Lej_hal_gpio_GPIO_method_setMode_I_I_Lej_hal_gpio_GPIO$Mode_V" value="0x0804848c" inputUnit="0"/>
+	<symbol id="22" name="_java_Ljava_util_Timer" value="0x0800a450" inputUnit="0"/>
+	<symbol id="23" name="_java_Ljava_util_Timer_method__4init_5_V" value="0x0805126c" inputUnit="0"/>
+	<symbol id="24" name="_java_Lmoc_lab_MainActivity$1_method__4init_5_Lmoc_lab_MainActivity_V" value="0x00000a0c" inputUnit="1" target="16"/>
+	<symbol id="25" name="_java_Ljava_util_Timer_method_schedule_Ljava_util_TimerTask_J_V" value="0x08050ddc" inputUnit="0"/>
+	<symbol id="26" name="_java_Lej_wadapps_app_BackgroundServiceProxy_imtable_java_Lej_wadapps_app_BackgroundService" value="0x00000354" inputUnit="1" target="17"/>
+	<symbol id="27" name="_java_Lej_observable_ObserverProxy_imtable_java_Lej_observable_Observer" value="0x0000036c" inputUnit="1" target="18"/>
+	<symbol id="28" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_imtable_java_Lej_wadapps_management_BackgroundServicesList" value="0x0000037c" inputUnit="1" target="19"/>
+	<symbol id="29" name="_java_Lej_kf_Proxy" value="0x08009450" inputUnit="0"/>
+	<symbol id="30" name="_java_Ljava_lang_ref_Reference" value="0x0800c784" inputUnit="0"/>
+	<symbol id="31" name="_java_Lej_kf_Proxy_method__4init_5_V" value="0x08056a60" inputUnit="0"/>
+	<symbol id="32" name="_java_Lej_kf_Proxy_method_equals_Ljava_lang_Object_Z" value="0x08034bd0" inputUnit="0"/>
+	<symbol id="33" name="_java_Ljava_lang_ref_Reference_method_isEnqueued_Z" value="0x08051504" inputUnit="0"/>
+	<symbol id="34" name="_java_Ljava_lang_ref_Reference_method_get_Ljava_lang_Object" value="0x08057014" inputUnit="0"/>
+	<symbol id="35" name="_java_Ljava_lang_ref_Reference_method_enqueue_Z" value="0x0804f314" inputUnit="0"/>
+	<symbol id="36" name="_java_Ljava_lang_ref_Reference_method_clear_V" value="0x08054c50" inputUnit="0"/>
+	<symbol id="37" name="_java_Lej_kf_Proxy_method_getReference_Ljava_lang_Object" value="0x080567d4" inputUnit="0"/>
+	<symbol id="38" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStop_V" value="0x00000a30" inputUnit="1" target="20"/>
+	<symbol id="39" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStart_V" value="0x00000a58" inputUnit="1" target="21"/>
+	<symbol id="40" name="_java_Lmoc_lab_MainActivity$1_imtable_java_Ljava_lang_Runnable" value="0x000003ac" inputUnit="1" target="22"/>
+	<symbol id="41" name="_java_Ljava_util_TimerTask" value="0x0800c88c" inputUnit="0"/>
+	<symbol id="42" name="_java_Pjava_util" value="0x00000598" inputUnit="1" target="23"/>
+	<symbol id="43" name="_java_Pmoc_lab" value="0x000005a4" inputUnit="1" target="24"/>
+	<symbol id="44" name="_java_Lmoc_lab_MainActivity_imtable_java_Lej_wadapps_app_BackgroundService" value="0x000003bc" inputUnit="1" target="25"/>
+	<symbol id="45" name="_java_Lmoc_lab_MainActivity_method_onStop_V" value="0x00000a70" inputUnit="1" target="26"/>
+	<symbol id="46" name="_java_Lmoc_lab_MainActivity_method_onStart_V" value="0x00000a78" inputUnit="1" target="27"/>
+	<symbol id="47" name="_java_Lej_wadapps_app_BackgroundServiceProxy_nameinfo" value="0x00000688" inputUnit="1" target="28"/>
+	<symbol id="48" name="_java_Lej_wadapps_app_BackgroundServiceProxy_itable" value="0x000003d4" inputUnit="1" target="29"/>
+	<symbol id="49" name="_java_Lej_wadapps_app_BackgroundServiceProxy_htable" value="0x000003dc" inputUnit="1" target="30"/>
+	<symbol id="50" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method__4init_5_V" value="0x00000aec" inputUnit="1" target="31"/>
+	<symbol id="51" name="_java_Lej_observable_ObserverProxy_nameinfo" value="0x00000698" inputUnit="1" target="32"/>
+	<symbol id="52" name="_java_Lej_observable_ObserverProxy_itable" value="0x000003e8" inputUnit="1" target="33"/>
+	<symbol id="53" name="_java_Lej_observable_ObserverProxy_htable" value="0x000003f0" inputUnit="1" target="34"/>
+	<symbol id="54" name="_java_Lej_observable_ObserverProxy_method__4init_5_V" value="0x00000b00" inputUnit="1" target="35"/>
+	<symbol id="55" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_nameinfo" value="0x000006a8" inputUnit="1" target="36"/>
+	<symbol id="56" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_itable" value="0x000003fc" inputUnit="1" target="37"/>
+	<symbol id="57" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_htable" value="0x00000404" inputUnit="1" target="38"/>
+	<symbol id="58" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method__4init_5_V" value="0x00000b14" inputUnit="1" target="39"/>
+	<symbol id="59" name="_java_Lej_wadapps_app_BackgroundServiceProxy_vtable" value="0x00000410" inputUnit="1" target="40"/>
+	<symbol id="60" name="_java_Lmoc_lab_MainActivity$1_nameinfo" value="0x000006b8" inputUnit="1" target="41"/>
+	<symbol id="61" name="_java_Lmoc_lab_MainActivity$1_itable" value="0x0000043c" inputUnit="1" target="42"/>
+	<symbol id="62" name="_java_Lmoc_lab_MainActivity$1_htable" value="0x00000444" inputUnit="1" target="43"/>
+	<symbol id="63" name="_java_Lej_hal_gpio_GPIO_method_setDigitalValue_I_I_Z_V" value="0x08057120" inputUnit="0"/>
+	<symbol id="64" name="_java_Pjava_util_logging" value="0x000005b0" inputUnit="1" target="44"/>
+	<symbol id="65" name="_java_Lej_components_registry_util_BundleRegistryHelper_method_startup_Lej_components_registry_BundleActivator_V" value="0x08050400" inputUnit="0"/>
+	<symbol id="66" name="_java_Lej_components_registry_BundleRegistry" value="0x0800d0e4" inputUnit="0"/>
+	<symbol id="67" name="_java_Lmoc_lab_MainActivity_nameinfo" value="0x000006c8" inputUnit="1" target="45"/>
+	<symbol id="68" name="_java_Lmoc_lab_MainActivity_itable" value="0x0000044c" inputUnit="1" target="46"/>
+	<symbol id="69" name="_java_Lmoc_lab_MainActivity_htable" value="0x00000454" inputUnit="1" target="47"/>
+	<symbol id="70" name="_java_Lmoc_lab_MainActivity_vtable" value="0x00000458" inputUnit="1" target="48"/>
+	<symbol id="71" name="_java_rodata_immutable__java_AC9" value="0x00000758" inputUnit="1" target="49"/>
+	<symbol id="72" name="_java_rodata_immutable__java_AC8" value="0x00000790" inputUnit="1" target="50"/>
+	<symbol id="73" name="_java_rodata_immutable__java_AC7" value="0x000007a8" inputUnit="1" target="51"/>
+	<symbol id="74" name="_java_rodata_immutable__java_AC6" value="0x000007c0" inputUnit="1" target="52"/>
+	<symbol id="75" name="_java_rodata_immutable__java_AC5" value="0x000007dc" inputUnit="1" target="53"/>
+	<symbol id="76" name="_java_rodata_immutable__java_AC4" value="0x000007f8" inputUnit="1" target="54"/>
+	<symbol id="77" name="_java_Lej_wadapps_app_BackgroundServiceProxy" value="0x00000010" inputUnit="1" target="55"/>
+	<symbol id="78" name="_java_Lej_observable_ObserverProxy" value="0x00000040" inputUnit="1" target="56"/>
+	<symbol id="79" name="_java_Lej_wadapps_management_BackgroundServicesListProxy" value="0x00000070" inputUnit="1" target="57"/>
+	<symbol id="80" name="_java_Lej_components_registry_BundleActivator" value="0x0800cc7c" inputUnit="0"/>
+	<symbol id="81" name="_java_Lmoc_lab_MainActivity$1" value="0x000000a0" inputUnit="1" target="58"/>
+	<symbol id="82" name="_java_Lmoc_lab_MainActivity_method_setColors_Z_Z_Z_V" value="0x00000b28" inputUnit="1" target="59"/>
+	<symbol id="83" name="_java_Pej_util" value="0x000005bc" inputUnit="1" target="60"/>
+	<symbol id="84" name="_java_Ljava_util_logging_Handler_nameinfo" value="0x000006d8" inputUnit="1" target="61"/>
+	<symbol id="85" name="_java_Lej_kf_FeatureEntryPoint" value="0x0800bd04" inputUnit="0"/>
+	<symbol id="86" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_method_start_V" value="0x00000b58" inputUnit="1" target="62"/>
+	<symbol id="87" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_method_stop_V" value="0x00000b84" inputUnit="1" target="63"/>
+	<symbol id="88" name="_java_Lej_components_dependencyinjection_ServiceLoaderFactory_method_getServiceLoader_Lej_components_dependencyinjection_ServiceLoader" value="0x08057058" inputUnit="0"/>
+	<symbol id="89" name="_java_Lmoc_lab_MainActivity" value="0x000000d0" inputUnit="1" target="64"/>
+	<symbol id="90" name="_java_Lmoc_lab_MainActivity_method__4init_5_V" value="0x00000bb4" inputUnit="1" target="65"/>
+	<symbol id="91" name="_java_Lcom_is2t_kf_PrincipalData" value="0x08006520" inputUnit="0"/>
+	<symbol id="92" name="_java_rodata_immutable__java_AAC3" value="0x00000808" inputUnit="1" target="66"/>
+	<symbol id="93" name="" value="0x000008e0" inputUnit="1" target="67"/>
+	<symbol id="94" name="_java_Pej" value="0x000005c8" inputUnit="1" target="68"/>
+	<symbol id="95" name="" value="0x00000918" inputUnit="1" target="69"/>
+	<symbol id="96" name="_java_Pej_wadapps" value="0x000005d4" inputUnit="1" target="70"/>
+	<symbol id="97" name="" value="0x00000950" inputUnit="1" target="71"/>
+	<symbol id="98" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_imtable_java_Lej_components_registry_BundleActivator" value="0x000004c4" inputUnit="1" target="72"/>
+	<symbol id="99" name="_java_Ljava_util_TimerTask_method_uncaughtException_Ljava_util_Timer_Ljava_lang_Throwable_V" value="0x0803c0ac" inputUnit="0"/>
+	<symbol id="100" name="_java_Ljava_util_TimerTask_method_setLaunched_V" value="0x0803c0a4" inputUnit="0"/>
+	<symbol id="101" name="_java_Ljava_util_TimerTask_method_setScheduled_Ljava_util_Timer_J_J_Z_V" value="0x0803c070" inputUnit="0"/>
+	<symbol id="102" name="_java_Ljava_util_TimerTask_method_scheduledExecutionTime_J" value="0x08052f74" inputUnit="0"/>
+	<symbol id="103" name="_java_Lmoc_lab_MainActivity$1_method_run_V" value="0x00000be4" inputUnit="1" target="73"/>
+	<symbol id="104" name="_java_Ljava_util_TimerTask_method_cancel_Z" value="0x08054bec" inputUnit="0"/>
+	<symbol id="105" name="_java_Pej_util_logging" value="0x000005e0" inputUnit="1" target="74"/>
+	<symbol id="106" name="_java_Ljava_util_logging_Handler" value="0x000001a4" inputUnit="1" target="75"/>
+	<symbol id="107" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_imtable_java_Lej_kf_FeatureEntryPoint" value="0x000004ec" inputUnit="1" target="76"/>
+	<symbol id="108" name="_java_Ljava_lang_Object_method_toString_Ljava_lang_String" value="0x0804f4f4" inputUnit="0"/>
+	<symbol id="109" name="_java_Ljava_lang_Object_method_hashCode_I" value="0x080560f4" inputUnit="0"/>
+	<symbol id="110" name="_java_Ljava_lang_Object_method_equals_Ljava_lang_Object_Z" value="0x0804d948" inputUnit="0"/>
+	<symbol id="111" name="_java_Ljava_lang_Object_method_clone_Ljava_lang_Object" value="0x080493b8" inputUnit="0"/>
+	<symbol id="112" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method_stop_V" value="0x00000c14" inputUnit="1" target="77"/>
+	<symbol id="113" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method_start_V" value="0x00000c44" inputUnit="1" target="78"/>
+	<symbol id="114" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method_link_V" value="0x00000c4c" inputUnit="1" target="79"/>
+	<symbol id="115" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method_initialize_V" value="0x00000c7c" inputUnit="1" target="80"/>
+	<symbol id="116" name="_java_P_1_1PBO5_1_1" value="0x000005ec" inputUnit="1" target="81"/>
+	<symbol id="117" name="_java_Lcom_is2t_kf_ModuleData" value="0x08007050" inputUnit="0"/>
+	<symbol id="118" name="_java_rodata_immutable__java_AC11" value="0x0000082c" inputUnit="1" target="82"/>
+	<symbol id="119" name="_java_rodata_immutable__java_AC10" value="0x00000840" inputUnit="1" target="83"/>
+	<symbol id="120" name="_java_rodata_immutable__java_Lcom_is2t_kf_PrincipalData2" value="0x0000085c" inputUnit="1" target="84"/>
+	<symbol id="121" name="_java_rodata_immutable__java_AB1" value="0x00000864" inputUnit="1" target="85"/>
+	<symbol id="122" name="_java_Pej_wadapps_app" value="0x000005f8" inputUnit="1" target="86"/>
+	<symbol id="123" name="_java_Lej_wadapps_app_BackgroundService" value="0x000001bc" inputUnit="1" target="87"/>
+	<symbol id="124" name="_java_Pej_observable" value="0x00000604" inputUnit="1" target="88"/>
+	<symbol id="125" name="_java_Lej_observable_Observer" value="0x000001d4" inputUnit="1" target="89"/>
+	<symbol id="126" name="_java_Pej_wadapps_management" value="0x00000610" inputUnit="1" target="90"/>
+	<symbol id="127" name="_java_Lej_wadapps_management_BackgroundServicesList" value="0x000001ec" inputUnit="1" target="91"/>
+	<symbol id="128" name="_java_rodata_resource_java_Pproperties_PBO5.services.bundles" value="0x00000000" inputUnit="1" target="92"/>
+	<symbol id="129" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_itable" value="0x00000504" inputUnit="1" target="93"/>
+	<symbol id="130" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_htable" value="0x0000050c" inputUnit="1" target="94"/>
+	<symbol id="131" name="_java_ALej_wadapps_app_BackgroundService" value="0x00000100" inputUnit="1" target="95"/>
+	<symbol id="132" name="_java_Lej_util_logging_handler_DefaultHandler_htable" value="0x00000510" inputUnit="1" target="96"/>
+	<symbol id="133" name="_java_Lmoc_lab_MainActivity$1_vtable" value="0x00000518" inputUnit="1" target="97"/>
+	<symbol id="134" name="_java_Ljava_lang_Object_method__4init_5_V" value="0x08059e34" inputUnit="0"/>
+	<symbol id="135" name="_java_Pej_util_logging_handler" value="0x0000061c" inputUnit="1" target="98"/>
+	<symbol id="136" name="_java_Ljava_util_logging_Handler_method__4init_5_V" value="0x00000c98" inputUnit="1" target="99"/>
+	<symbol id="137" name="_java_rodata_resource_java_Pproperties_PBO5.application.system.properties" value="0x00000024" inputUnit="1" target="100"/>
+	<symbol id="138" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_itable" value="0x00000540" inputUnit="1" target="101"/>
+	<symbol id="139" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_htable" value="0x00000548" inputUnit="1" target="102"/>
+	<symbol id="140" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_vtable" value="0x0000054c" inputUnit="1" target="103"/>
+	<symbol id="141" name="_java_Pproperties" value="0x00000628" inputUnit="1" target="104"/>
+	<symbol id="142" name="_java_rodata_resource_java_Pproperties_PBO5.services.system.properties" value="0x00000198" inputUnit="1" target="105"/>
+	<symbol id="143" name="" value="0x00001a30" inputUnit="1" target="106"/>
+	<symbol id="144" name="_java_P_1_1PBO5_1_1_generated" value="0x00000634" inputUnit="1" target="107"/>
+	<symbol id="145" name="_java_rodata_immutable__java_Lcom_is2t_kf_ModuleData0" value="0x00000898" inputUnit="1" target="108"/>
+	<symbol id="146" name="_java_bss_feature0" value="0x00000000" inputUnit="1" target="109"/>
+	<symbol id="147" name="__icetea___6bss_6soar_6BT1_6PBO5$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="148" name="__icetea___6bss_6soar_6BT1_6PBO5$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="149" name="__icetea___6bss_6soar_6BT2_6PBO5$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="150" name="__icetea___6bss_6soar_6BT2_6PBO5$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="151" name="__icetea___6bss_6soar_6BT4_6PBO5$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="152" name="__icetea___6bss_6soar_6BT4_6PBO5$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="153" name="__icetea___6bss_6soar_6BT8_6PBO5$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="154" name="__icetea___6bss_6soar_6BT8_6PBO5$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="155" name="__icetea___6bss_6soar_6REF_6PBO5$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="156" name="__icetea___6bss_6soar_6REF_6PBO5$$Limit" value="0x0000004c" inputUnit="2"/>
+	<symbol id="157" name="_java_statics_refls_kernel_start_PBO5" value="0x00000000" inputUnit="1" target="110"/>
+	<symbol id="158" name="" value="0x0000004c" inputUnit="1"/>
+	<symbol id="159" name="" value="0x00000000" inputUnit="1" target="111"/>
+	<symbol id="160" name="" value="0x00001140" inputUnit="1" target="112"/>
+	<symbol id="161" name="" value="0x00001160" inputUnit="1" target="113"/>
+	<symbol id="162" name="_timeStamp_low" value="0xb42f3f4a" inputUnit="2"/>
+	<symbol id="163" name="_timeStamp_high" value="0x0000015b" inputUnit="2"/>
+	<symbol id="164" name="_java_Lej_wadapps_app_BackgroundService_nameinfo" value="0x000006e8" inputUnit="1" target="114"/>
+	<symbol id="165" name="_java_Lej_observable_Observer_nameinfo" value="0x000006f8" inputUnit="1" target="115"/>
+	<symbol id="166" name="_java_Lej_wadapps_management_BackgroundServicesList_nameinfo" value="0x00000708" inputUnit="1" target="116"/>
+	<symbol id="167" name="_java_Pproperties_PBO5.services.bundles" value="0x00000640" inputUnit="1" target="117"/>
+	<symbol id="168" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator" value="0x00000120" inputUnit="1" target="118"/>
+	<symbol id="169" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_nameinfo" value="0x00000718" inputUnit="1" target="119"/>
+	<symbol id="170" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method__4init_5_V" value="0x00000cac" inputUnit="1" target="120"/>
+	<symbol id="171" name="_java_ALej_wadapps_app_BackgroundService_nameinfo" value="0x00000728" inputUnit="1" target="121"/>
+	<symbol id="172" name="_java_Lej_util_logging_handler_DefaultHandler" value="0x00000150" inputUnit="1" target="122"/>
+	<symbol id="173" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_method__4init_5_V" value="0x00000cc0" inputUnit="1" target="123"/>
+	<symbol id="174" name="_java_Lej_util_logging_handler_DefaultHandler_nameinfo" value="0x00000738" inputUnit="1" target="124"/>
+	<symbol id="175" name="_java_Lej_util_logging_handler_DefaultHandler_method__4init_5_V" value="0x00000cd4" inputUnit="1" target="125"/>
+	<symbol id="176" name="_java_Pproperties_PBO5.application.system.properties" value="0x00000658" inputUnit="1" target="126"/>
+	<symbol id="177" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint" value="0x00000180" inputUnit="1" target="127"/>
+	<symbol id="178" name="_java_Pproperties_PBO5.services.system.properties" value="0x00000670" inputUnit="1" target="128"/>
+	<symbol id="179" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_nameinfo" value="0x00000748" inputUnit="1" target="129"/>
+	<symbol id="180" name="_java_rodata_feature0" value="0x00000000" inputUnit="1" target="130"/>
+	<symbol id="181" name="" value="0x00001d00" inputUnit="1" target="131"/>
+	<symbol id="182" name="_java_features_start" value="0x00000000" inputUnit="1" target="132"/>
+	<symbol id="183" name="_java_signature_start" value="0x00000ce8" inputUnit="1" target="133"/>
+	<symbol id="184" name="_java_kernel_signature_start" value="0x00000d00" inputUnit="1" target="134"/>
+	<symbol id="185" name="_java_soarsection_header_start" value="0x00000000" inputUnit="2"/>
+	<symbol id="186" name="_java_soarfile_header_start" value="0x0000056c" inputUnit="1" target="135"/>
+	<symbol id="187" name="_java_header_types_start" value="0x00000010" inputUnit="2"/>
+	<symbol id="188" name="_java_header_types_end" value="0x00000204" inputUnit="2"/>
+	<symbol id="189" name="_java_internStrings_start" value="0x000008c0" inputUnit="1" target="136"/>
+	<symbol id="190" name="_java_internStrings_end" value="0x00000908" inputUnit="2"/>
+	<symbol id="191" name="_java_sharedarray_start" value="0x0805c600" inputUnit="0"/>
+	<symbol id="192" name="_java_class_names_start" value="0x00000688" inputUnit="2"/>
+	<symbol id="193" name="_java_class_names_end" value="0x00000758" inputUnit="2"/>
+	<symbol id="194" name="_java_resource_names_start" value="0x00000640" inputUnit="2"/>
+	<symbol id="195" name="_java_resource_names_end" value="0x00000688" inputUnit="2"/>
+	<symbol id="196" name="_java_statics_ref_start" value="0x00000000" inputUnit="2"/>
+	<symbol id="197" name="_java_statics_ref_end" value="0x0000004c" inputUnit="2"/>
+	<symbol id="198" name="_java_names_data_start" value="0x08061c04" inputUnit="0"/>
+	<symbol id="199" name="_java_Ljava_lang_Object" value="0x0800b690" inputUnit="0"/>
+	<symbol id="200" name="_java_Ljava_lang_Class" value="0x0800b6c0" inputUnit="0"/>
+	<symbol id="201" name="_java_Ljava_lang_String" value="0x0800b6f0" inputUnit="0"/>
+	<symbol id="202" name="_java_Ljava_lang_MainThread" value="0x0800b720" inputUnit="0"/>
+	<symbol id="203" name="_java_Ljava_lang_MainThread_field_Args_ALjava_lang_String" value="0x20026d08" inputUnit="0"/>
+	<symbol id="204" name="_java_Ljava_lang_Thread" value="0x0800b750" inputUnit="0"/>
+	<symbol id="205" name="_java_Ljava_lang_Thread_field_PeakThreadCount_I" value="0x200267e8" inputUnit="0"/>
+	<symbol id="206" name="_java_Ljava_lang_Thread_field_TotalStartedThreadCount_I" value="0x200267e4" inputUnit="0"/>
+	<symbol id="207" name="_java_Ljava_lang_OutOfMemoryError" value="0x0800b780" inputUnit="0"/>
+	<symbol id="208" name="_java_Ljava_lang_OutOfMemoryError_field_OOMEMethodAddr_I" value="0x200267e0" inputUnit="0"/>
+	<symbol id="209" name="_java_Ljava_lang_NullPointerException" value="0x0800b7b0" inputUnit="0"/>
+	<symbol id="210" name="_java_Ljava_lang_IndexOutOfBoundsException" value="0x0800b7e0" inputUnit="0"/>
+	<symbol id="211" name="_java_Ljava_lang_ArrayIndexOutOfBoundsException" value="0x0800b810" inputUnit="0"/>
+	<symbol id="212" name="_java_Ljava_lang_NegativeArraySizeException" value="0x0800b840" inputUnit="0"/>
+	<symbol id="213" name="_java_Ljava_lang_ArrayStoreException" value="0x0800b870" inputUnit="0"/>
+	<symbol id="214" name="_java_Ljava_lang_IllegalAccessException" value="0x0800b8a0" inputUnit="0"/>
+	<symbol id="215" name="_java_Ljava_lang_IllegalAccessError" value="0x0800b8d0" inputUnit="0"/>
+	<symbol id="216" name="_java_Ljava_lang_IllegalArgumentException" value="0x0800b900" inputUnit="0"/>
+	<symbol id="217" name="_java_Ljava_lang_InstantiationException" value="0x0800b930" inputUnit="0"/>
+	<symbol id="218" name="_java_Ljava_lang_IllegalMonitorStateException" value="0x0800b960" inputUnit="0"/>
+	<symbol id="219" name="_java_Ljava_lang_IllegalThreadStateException" value="0x0800b990" inputUnit="0"/>
+	<symbol id="220" name="_java_Ljava_lang_InterruptedException" value="0x0800b9c0" inputUnit="0"/>
+	<symbol id="221" name="_java_Ljava_lang_ArithmeticException" value="0x0800b9f0" inputUnit="0"/>
+	<symbol id="222" name="_java_Ljava_lang_NumberFormatException" value="0x0800ba20" inputUnit="0"/>
+	<symbol id="223" name="_java_Ljava_lang_ClassCastException" value="0x0800ba50" inputUnit="0"/>
+	<symbol id="224" name="_java_immutable_Keys" value="0x0801c1c4" inputUnit="0"/>
+	<symbol id="225" name="_java_immutable_Values" value="0x0801c1d0" inputUnit="0"/>
+	<symbol id="226" name="_java_properties_Keys" value="0x08065108" inputUnit="0"/>
+	<symbol id="227" name="_java_properties_Values" value="0x08065230" inputUnit="0"/>
+	<symbol id="228" name="_java_Object_OutOfMemory" value="0x0801c1ec" inputUnit="0"/>
+	<symbol id="229" name="_java_main_thread_name" value="0x0801fd54" inputUnit="0"/>
+	<symbol id="230" name="_java_AB" value="0x0800ba80" inputUnit="0"/>
+	<symbol id="231" name="_java_AI" value="0x0800baa0" inputUnit="0"/>
+	<symbol id="232" name="_java_AC" value="0x0800bac0" inputUnit="0"/>
+	<symbol id="233" name="_java_AAC" value="0x0800bae0" inputUnit="0"/>
+	<symbol id="234" name="_java_ALjava_lang_String" value="0x0800bb00" inputUnit="0"/>
+	<symbol id="235" name="_java_ALjava_lang_Thread" value="0x0800bb20" inputUnit="0"/>
+	<symbol id="236" name="_java_ALjava_lang_Object" value="0x0800bb40" inputUnit="0"/>
+	<symbol id="237" name="_java_Ljava_lang_Thread_method_runWrapper_V" value="0x0805c2fc" inputUnit="0"/>
+	<symbol id="238" name="_java_Ljava_lang_Thread_method_callWrapper_V" value="0x0805c36c" inputUnit="0"/>
+	<symbol id="239" name="_java_Ljava_lang_Thread_method_clinitWrapper_I_V" value="0x0805c390" inputUnit="0"/>
+	<symbol id="240" name="_java_Ljava_lang_Thread_method_run_V" value="0x0805c3b4" inputUnit="0"/>
+	<symbol id="241" name="_java_Ljava_lang_Throwable_method_printStackTrace_V" value="0x0805c3d0" inputUnit="0"/>
+	<symbol id="242" name="_java_Ljava_lang_Throwable_methodoffset_printStackTrace_V" value="0x0000000c" inputUnit="0"/>
+	<symbol id="243" name="_java_Lcom_is2t_vm_support_io_DebugOutputStream" value="0x0800bb60" inputUnit="0"/>
+	<symbol id="244" name="_java_Lcom_is2t_vm_support_io_MemoryInputStream" value="0x0800bb90" inputUnit="0"/>
+	<symbol id="245" name="_java_Ljava_lang_ClassNotFoundException" value="0x0800bbc0" inputUnit="0"/>
+	<symbol id="246" name="_java_Lcom_is2t_vm_support_InternalLimitsError" value="0x0800bbf0" inputUnit="0"/>
+	<symbol id="247" name="_java_Ljava_lang_UnsatisfiedLinkError" value="0x0800bc20" inputUnit="0"/>
+	<symbol id="248" name="_java_Ljava_lang_StackOverflowError" value="0x0800bc50" inputUnit="0"/>
+	<symbol id="249" name="_java_Ljava_lang_ref_WeakReference" value="0x0800bc80" inputUnit="0"/>
+	<symbol id="250" name="_java_Ljava_lang_ref_SoftReference" value="0x00000000" inputUnit="0"/>
+	<symbol id="251" name="_java_Lej_bon_EnqueuedWeakReference" value="0x0800bcb0" inputUnit="0"/>
+	<symbol id="252" name="_java_immutables_start" value="0x00000758" inputUnit="2"/>
+	<symbol id="253" name="_java_immutables_end" value="0x000008c0" inputUnit="2"/>
+	<symbol id="254" name="_java_ClinitMethod" value="0x0805c3e4" inputUnit="0"/>
+	<symbol id="255" name="__icetea___6bss_6soar_6BT1$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="256" name="__icetea___6bss_6soar_6BT1$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="257" name="__icetea___6bss_6soar_6BT2$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="258" name="__icetea___6bss_6soar_6BT2$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="259" name="__icetea___6bss_6soar_6BT4$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="260" name="__icetea___6bss_6soar_6BT4$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="261" name="__icetea___6bss_6soar_6BT8$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="262" name="__icetea___6bss_6soar_6BT8$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="263" name="__icetea___6bss_6soar_6REF$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="264" name="__icetea___6bss_6soar_6REF$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="265" name="__icetea___6text_6soar$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="266" name=".text.soar$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="267" name=".bss.soar.BT1$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="268" name=".bss.soar.BT1$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="269" name=".bss.soar.BT2$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="270" name=".bss.soar.BT2$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="271" name=".bss.soar.BT4$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="272" name=".bss.soar.BT4$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="273" name=".bss.soar.BT8$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="274" name=".bss.soar.BT8$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="275" name=".bss.soar.REF$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="276" name=".bss.soar.REF$$Limit" value="0x0000004c" inputUnit="2"/>
+	<symbol id="277" name="SOAR_START" value="0x00000000" inputUnit="2"/>
+	<symbol id="278" name="SOAR_END" value="0x00000ec0" inputUnit="2"/>
+	<blockGroup startAddress="0x00000000" relocStartAddress="0x00000000" name=".bss.soar" relocName=".bss.soar" size="76">
+		<block name=".bss.soar.BT1.PBO5" id="137" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.BT1" id="138" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.BT2.PBO5" id="139" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.BT2" id="140" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.BT4.PBO5" id="141" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.BT4" id="142" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.BT8.PBO5" id="143" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.BT8" id="144" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.REF" id="145" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.REF.PBO5" id="110" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="76"></block>
+	</blockGroup>
+	<blockGroup startAddress="0x00000000" relocStartAddress="0x00000000" name=".rodata.resources" relocName=".rodata.resources" size="440">
+		<block name=".soar.rodata.resource" id="92" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="36" memSize="36"></block>
+		<block name=".soar.rodata.resource" id="100" inputUnit="1" startAddress="0x00000024" relocStartAddress="0x00000024" imageSize="372" memSize="372"></block>
+		<block name=".soar.rodata.resource" id="105" inputUnit="1" startAddress="0x00000198" relocStartAddress="0x00000198" imageSize="32" memSize="32"></block>
+	</blockGroup>
+	<blockGroup startAddress="0x00000000" relocStartAddress="0x00000000" name=".text.soar" relocName=".text.soar" size="3776">
+		<block name=".text.soar.startpadding" id="146" inputUnit="2" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="4" memSize="4"></block>
+		<padding size="0x0000000c"/>
+		<block name=".soar.runtime.types._java_Lej_wadapps_app_BackgroundServiceProxy" id="55" inputUnit="1" startAddress="0x00000010" relocStartAddress="0x00000010" imageSize="36" memSize="36">
+			<symbolRef id="59" name="_java_Lej_wadapps_app_BackgroundServiceProxy_vtable"/>
+			<symbolRef id="50" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method__4init_5_V"/>
+			<symbolRef id="49" name="_java_Lej_wadapps_app_BackgroundServiceProxy_htable"/>
+			<symbolRef id="48" name="_java_Lej_wadapps_app_BackgroundServiceProxy_itable"/>
+			<symbolRef id="47" name="_java_Lej_wadapps_app_BackgroundServiceProxy_nameinfo"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="200" name="_java_Ljava_lang_Class"/>
+		</block>
+		<padding size="0x0000000c"/>
+		<block name=".soar.runtime.types._java_Lej_observable_ObserverProxy" id="56" inputUnit="1" startAddress="0x00000040" relocStartAddress="0x00000040" imageSize="36" memSize="36">
+			<symbolRef id="59" name="_java_Lej_wadapps_app_BackgroundServiceProxy_vtable"/>
+			<symbolRef id="54" name="_java_Lej_observable_ObserverProxy_method__4init_5_V"/>
+			<symbolRef id="53" name="_java_Lej_observable_ObserverProxy_htable"/>
+			<symbolRef id="52" name="_java_Lej_observable_ObserverProxy_itable"/>
+			<symbolRef id="51" name="_java_Lej_observable_ObserverProxy_nameinfo"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="200" name="_java_Ljava_lang_Class"/>
+		</block>
+		<padding size="0x0000000c"/>
+		<block name=".soar.runtime.types._java_Lej_wadapps_management_BackgroundServicesListProxy" id="57" inputUnit="1" startAddress="0x00000070" relocStartAddress="0x00000070" imageSize="36" memSize="36">
+			<symbolRef id="59" name="_java_Lej_wadapps_app_BackgroundServiceProxy_vtable"/>
+			<symbolRef id="58" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method__4init_5_V"/>
+			<symbolRef id="57" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_htable"/>
+			<symbolRef id="56" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_itable"/>
+			<symbolRef id="55" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_nameinfo"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="200" name="_java_Ljava_lang_Class"/>
+		</block>
+		<padding size="0x0000000c"/>
+		<block name=".soar.runtime.types._java_Lmoc_lab_MainActivity$1" id="58" inputUnit="1" startAddress="0x000000a0" relocStartAddress="0x000000a0" imageSize="36" memSize="36">
+			<symbolRef id="133" name="_java_Lmoc_lab_MainActivity$1_vtable"/>
+			<symbolRef id="62" name="_java_Lmoc_lab_MainActivity$1_htable"/>
+			<symbolRef id="61" name="_java_Lmoc_lab_MainActivity$1_itable"/>
+			<symbolRef id="60" name="_java_Lmoc_lab_MainActivity$1_nameinfo"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="200" name="_java_Ljava_lang_Class"/>
+		</block>
+		<padding size="0x0000000c"/>
+		<block name=".soar.runtime.types._java_Lmoc_lab_MainActivity" id="64" inputUnit="1" startAddress="0x000000d0" relocStartAddress="0x000000d0" imageSize="36" memSize="36">
+			<symbolRef id="70" name="_java_Lmoc_lab_MainActivity_vtable"/>
+			<symbolRef id="90" name="_java_Lmoc_lab_MainActivity_method__4init_5_V"/>
+			<symbolRef id="69" name="_java_Lmoc_lab_MainActivity_htable"/>
+			<symbolRef id="68" name="_java_Lmoc_lab_MainActivity_itable"/>
+			<symbolRef id="67" name="_java_Lmoc_lab_MainActivity_nameinfo"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="200" name="_java_Ljava_lang_Class"/>
+		</block>
+		<padding size="0x0000000c"/>
+		<block name=".soar.runtime.types._java_ALej_wadapps_app_BackgroundService" id="95" inputUnit="1" startAddress="0x00000100" relocStartAddress="0x00000100" imageSize="20" memSize="20">
+			<symbolRef id="123" name="_java_Lej_wadapps_app_BackgroundService"/>
+			<symbolRef id="171" name="_java_ALej_wadapps_app_BackgroundService_nameinfo"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="200" name="_java_Ljava_lang_Class"/>
+		</block>
+		<padding size="0x0000000c"/>
+		<block name=".soar.runtime.types._java_L_1_1PBO5_1_1_generated_PBO5Activator" id="118" inputUnit="1" startAddress="0x00000120" relocStartAddress="0x00000120" imageSize="36" memSize="36">
+			<symbolRef id="140" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_vtable"/>
+			<symbolRef id="170" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method__4init_5_V"/>
+			<symbolRef id="130" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_htable"/>
+			<symbolRef id="129" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_itable"/>
+			<symbolRef id="169" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_nameinfo"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="200" name="_java_Ljava_lang_Class"/>
+		</block>
+		<padding size="0x0000000c"/>
+		<block name=".soar.runtime.types._java_Lej_util_logging_handler_DefaultHandler" id="122" inputUnit="1" startAddress="0x00000150" relocStartAddress="0x00000150" imageSize="36" memSize="36">
+			<symbolRef id="133" name="_java_Lmoc_lab_MainActivity$1_vtable"/>
+			<symbolRef id="175" name="_java_Lej_util_logging_handler_DefaultHandler_method__4init_5_V"/>
+			<symbolRef id="132" name="_java_Lej_util_logging_handler_DefaultHandler_htable"/>
+			<symbolRef id="174" name="_java_Lej_util_logging_handler_DefaultHandler_nameinfo"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="200" name="_java_Ljava_lang_Class"/>
+		</block>
+		<padding size="0x0000000c"/>
+		<block name=".soar.runtime.types._java_L_1_1PBO5_1_1_generated_PBO5EntryPoint" id="127" inputUnit="1" startAddress="0x00000180" relocStartAddress="0x00000180" imageSize="36" memSize="36">
+			<symbolRef id="140" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_vtable"/>
+			<symbolRef id="173" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_method__4init_5_V"/>
+			<symbolRef id="139" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_htable"/>
+			<symbolRef id="138" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_itable"/>
+			<symbolRef id="179" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_nameinfo"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="200" name="_java_Ljava_lang_Class"/>
+		</block>
+		<block name=".soar.runtime.atypes._java_Ljava_util_logging_Handler" id="75" inputUnit="1" startAddress="0x000001a4" relocStartAddress="0x000001a4" imageSize="24" memSize="24">
+			<symbolRef id="132" name="_java_Lej_util_logging_handler_DefaultHandler_htable"/>
+			<symbolRef id="84" name="_java_Ljava_util_logging_Handler_nameinfo"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="200" name="_java_Ljava_lang_Class"/>
+		</block>
+		<block name=".soar.runtime.atypes._java_Lej_wadapps_app_BackgroundService" id="87" inputUnit="1" startAddress="0x000001bc" relocStartAddress="0x000001bc" imageSize="24" memSize="24">
+			<symbolRef id="93" name=""/>
+			<symbolRef id="164" name="_java_Lej_wadapps_app_BackgroundService_nameinfo"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="200" name="_java_Ljava_lang_Class"/>
+		</block>
+		<block name=".soar.runtime.atypes._java_Lej_observable_Observer" id="89" inputUnit="1" startAddress="0x000001d4" relocStartAddress="0x000001d4" imageSize="24" memSize="24">
+			<symbolRef id="95" name=""/>
+			<symbolRef id="165" name="_java_Lej_observable_Observer_nameinfo"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="200" name="_java_Ljava_lang_Class"/>
+		</block>
+		<block name=".soar.runtime.atypes._java_Lej_wadapps_management_BackgroundServicesList" id="91" inputUnit="1" startAddress="0x000001ec" relocStartAddress="0x000001ec" imageSize="24" memSize="24">
+			<symbolRef id="97" name=""/>
+			<symbolRef id="166" name="_java_Lej_wadapps_management_BackgroundServicesList_nameinfo"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="200" name="_java_Ljava_lang_Class"/>
+		</block>
+		<block name=".soar.runtime" id="1" inputUnit="1" startAddress="0x00000204" relocStartAddress="0x00000204" imageSize="40" memSize="40"></block>
+		<block name=".soar.runtime" id="7" inputUnit="1" startAddress="0x0000022c" relocStartAddress="0x0000022c" imageSize="44" memSize="44">
+			<symbolRef id="125" name="_java_Lej_observable_Observer"/>
+		</block>
+		<block name=".soar.runtime" id="8" inputUnit="1" startAddress="0x00000258" relocStartAddress="0x00000258" imageSize="44" memSize="44">
+			<symbolRef id="125" name="_java_Lej_observable_Observer"/>
+		</block>
+		<block name=".soar.runtime" id="9" inputUnit="1" startAddress="0x00000284" relocStartAddress="0x00000284" imageSize="44" memSize="44">
+			<symbolRef id="123" name="_java_Lej_wadapps_app_BackgroundService"/>
+		</block>
+		<block name=".soar.runtime" id="10" inputUnit="1" startAddress="0x000002b0" relocStartAddress="0x000002b0" imageSize="44" memSize="44">
+			<symbolRef id="123" name="_java_Lej_wadapps_app_BackgroundService"/>
+		</block>
+		<block name=".soar.runtime" id="11" inputUnit="1" startAddress="0x000002dc" relocStartAddress="0x000002dc" imageSize="40" memSize="40">
+			<symbolRef id="131" name="_java_ALej_wadapps_app_BackgroundService"/>
+		</block>
+		<block name=".soar.runtime" id="14" inputUnit="1" startAddress="0x00000304" relocStartAddress="0x00000304" imageSize="40" memSize="40"></block>
+		<block name=".soar.runtime" id="15" inputUnit="1" startAddress="0x0000032c" relocStartAddress="0x0000032c" imageSize="40" memSize="40"></block>
+		<block name=".soar.runtime" id="17" inputUnit="1" startAddress="0x00000354" relocStartAddress="0x00000354" imageSize="24" memSize="24">
+			<symbolRef id="18" name="_java_Lej_wadapps_app_BackgroundService_method_onStop_V_descriptor"/>
+			<symbolRef id="17" name="_java_Lej_wadapps_app_BackgroundService_method_onStart_V_descriptor"/>
+			<symbolRef id="38" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStop_V"/>
+			<symbolRef id="39" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStart_V"/>
+			<symbolRef id="123" name="_java_Lej_wadapps_app_BackgroundService"/>
+		</block>
+		<block name=".soar.runtime" id="18" inputUnit="1" startAddress="0x0000036c" relocStartAddress="0x0000036c" imageSize="16" memSize="16">
+			<symbolRef id="2" name="_java_Lej_observable_Observer_method_update_V_descriptor"/>
+			<symbolRef id="1" name="_java_Lej_observable_ObserverProxy_method_update_V"/>
+			<symbolRef id="125" name="_java_Lej_observable_Observer"/>
+		</block>
+		<block name=".soar.runtime" id="19" inputUnit="1" startAddress="0x0000037c" relocStartAddress="0x0000037c" imageSize="48" memSize="48">
+			<symbolRef id="12" name="_java_Lej_wadapps_management_BackgroundServicesList_method_getBackgroundServices_ALej_wadapps_app_BackgroundService_descriptor"/>
+			<symbolRef id="11" name="_java_Lej_wadapps_management_BackgroundServicesList_method_remove_Lej_wadapps_app_BackgroundService_V_descriptor"/>
+			<symbolRef id="10" name="_java_Lej_wadapps_management_BackgroundServicesList_method_add_Lej_wadapps_app_BackgroundService_V_descriptor"/>
+			<symbolRef id="9" name="_java_Lej_wadapps_management_BackgroundServicesList_method_deleteObserver_Lej_observable_Observer_V_descriptor"/>
+			<symbolRef id="8" name="_java_Lej_wadapps_management_BackgroundServicesList_method_addObserver_Lej_observable_Observer_V_descriptor"/>
+			<symbolRef id="7" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_getBackgroundServices_ALej_wadapps_app_BackgroundService"/>
+			<symbolRef id="6" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_remove_Lej_wadapps_app_BackgroundService_V"/>
+			<symbolRef id="5" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_add_Lej_wadapps_app_BackgroundService_V"/>
+			<symbolRef id="4" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_deleteObserver_Lej_observable_Observer_V"/>
+			<symbolRef id="3" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_addObserver_Lej_observable_Observer_V"/>
+			<symbolRef id="127" name="_java_Lej_wadapps_management_BackgroundServicesList"/>
+		</block>
+		<block name=".soar.runtime" id="22" inputUnit="1" startAddress="0x000003ac" relocStartAddress="0x000003ac" imageSize="16" memSize="16">
+			<symbolRef id="103" name="_java_Lmoc_lab_MainActivity$1_method_run_V"/>
+			<symbolRef id="14" name="_java_Ljava_lang_Runnable"/>
+		</block>
+		<block name=".soar.runtime" id="25" inputUnit="1" startAddress="0x000003bc" relocStartAddress="0x000003bc" imageSize="24" memSize="24">
+			<symbolRef id="18" name="_java_Lej_wadapps_app_BackgroundService_method_onStop_V_descriptor"/>
+			<symbolRef id="17" name="_java_Lej_wadapps_app_BackgroundService_method_onStart_V_descriptor"/>
+			<symbolRef id="45" name="_java_Lmoc_lab_MainActivity_method_onStop_V"/>
+			<symbolRef id="46" name="_java_Lmoc_lab_MainActivity_method_onStart_V"/>
+			<symbolRef id="123" name="_java_Lej_wadapps_app_BackgroundService"/>
+		</block>
+		<block name=".soar.runtime" id="29" inputUnit="1" startAddress="0x000003d4" relocStartAddress="0x000003d4" imageSize="8" memSize="8">
+			<symbolRef id="26" name="_java_Lej_wadapps_app_BackgroundServiceProxy_imtable_java_Lej_wadapps_app_BackgroundService"/>
+		</block>
+		<block name=".soar.runtime" id="30" inputUnit="1" startAddress="0x000003dc" relocStartAddress="0x000003dc" imageSize="12" memSize="12">
+			<symbolRef id="199" name="_java_Ljava_lang_Object"/>
+			<symbolRef id="30" name="_java_Ljava_lang_ref_Reference"/>
+			<symbolRef id="29" name="_java_Lej_kf_Proxy"/>
+		</block>
+		<block name=".soar.runtime" id="33" inputUnit="1" startAddress="0x000003e8" relocStartAddress="0x000003e8" imageSize="8" memSize="8">
+			<symbolRef id="27" name="_java_Lej_observable_ObserverProxy_imtable_java_Lej_observable_Observer"/>
+		</block>
+		<block name=".soar.runtime" id="34" inputUnit="1" startAddress="0x000003f0" relocStartAddress="0x000003f0" imageSize="12" memSize="12">
+			<symbolRef id="199" name="_java_Ljava_lang_Object"/>
+			<symbolRef id="30" name="_java_Ljava_lang_ref_Reference"/>
+			<symbolRef id="29" name="_java_Lej_kf_Proxy"/>
+		</block>
+		<block name=".soar.runtime" id="37" inputUnit="1" startAddress="0x000003fc" relocStartAddress="0x000003fc" imageSize="8" memSize="8">
+			<symbolRef id="28" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_imtable_java_Lej_wadapps_management_BackgroundServicesList"/>
+		</block>
+		<block name=".soar.runtime" id="38" inputUnit="1" startAddress="0x00000404" relocStartAddress="0x00000404" imageSize="12" memSize="12">
+			<symbolRef id="199" name="_java_Ljava_lang_Object"/>
+			<symbolRef id="30" name="_java_Ljava_lang_ref_Reference"/>
+			<symbolRef id="29" name="_java_Lej_kf_Proxy"/>
+		</block>
+		<block name=".soar.runtime" id="40" inputUnit="1" startAddress="0x00000410" relocStartAddress="0x00000410" imageSize="44" memSize="44">
+			<symbolRef id="39" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStart_V"/>
+			<symbolRef id="38" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStop_V"/>
+			<symbolRef id="37" name="_java_Lej_kf_Proxy_method_getReference_Ljava_lang_Object"/>
+			<symbolRef id="36" name="_java_Ljava_lang_ref_Reference_method_clear_V"/>
+			<symbolRef id="35" name="_java_Ljava_lang_ref_Reference_method_enqueue_Z"/>
+			<symbolRef id="34" name="_java_Ljava_lang_ref_Reference_method_get_Ljava_lang_Object"/>
+			<symbolRef id="33" name="_java_Ljava_lang_ref_Reference_method_isEnqueued_Z"/>
+			<symbolRef id="111" name="_java_Ljava_lang_Object_method_clone_Ljava_lang_Object"/>
+			<symbolRef id="32" name="_java_Lej_kf_Proxy_method_equals_Ljava_lang_Object_Z"/>
+			<symbolRef id="109" name="_java_Ljava_lang_Object_method_hashCode_I"/>
+			<symbolRef id="108" name="_java_Ljava_lang_Object_method_toString_Ljava_lang_String"/>
+		</block>
+		<block name=".soar.runtime" id="42" inputUnit="1" startAddress="0x0000043c" relocStartAddress="0x0000043c" imageSize="8" memSize="8">
+			<symbolRef id="40" name="_java_Lmoc_lab_MainActivity$1_imtable_java_Ljava_lang_Runnable"/>
+		</block>
+		<block name=".soar.runtime" id="43" inputUnit="1" startAddress="0x00000444" relocStartAddress="0x00000444" imageSize="8" memSize="8">
+			<symbolRef id="199" name="_java_Ljava_lang_Object"/>
+			<symbolRef id="41" name="_java_Ljava_util_TimerTask"/>
+		</block>
+		<block name=".soar.runtime" id="46" inputUnit="1" startAddress="0x0000044c" relocStartAddress="0x0000044c" imageSize="8" memSize="8">
+			<symbolRef id="44" name="_java_Lmoc_lab_MainActivity_imtable_java_Lej_wadapps_app_BackgroundService"/>
+		</block>
+		<block name=".soar.runtime" id="47" inputUnit="1" startAddress="0x00000454" relocStartAddress="0x00000454" imageSize="4" memSize="4">
+			<symbolRef id="199" name="_java_Ljava_lang_Object"/>
+		</block>
+		<block name=".soar.runtime" id="48" inputUnit="1" startAddress="0x00000458" relocStartAddress="0x00000458" imageSize="24" memSize="24">
+			<symbolRef id="46" name="_java_Lmoc_lab_MainActivity_method_onStart_V"/>
+			<symbolRef id="45" name="_java_Lmoc_lab_MainActivity_method_onStop_V"/>
+			<symbolRef id="111" name="_java_Ljava_lang_Object_method_clone_Ljava_lang_Object"/>
+			<symbolRef id="110" name="_java_Ljava_lang_Object_method_equals_Ljava_lang_Object_Z"/>
+			<symbolRef id="109" name="_java_Ljava_lang_Object_method_hashCode_I"/>
+			<symbolRef id="108" name="_java_Ljava_lang_Object_method_toString_Ljava_lang_String"/>
+		</block>
+		<block name=".soar.runtime" id="67" inputUnit="1" startAddress="0x00000470" relocStartAddress="0x00000470" imageSize="28" memSize="28">
+			<symbolRef id="77" name="_java_Lej_wadapps_app_BackgroundServiceProxy"/>
+		</block>
+		<block name=".soar.runtime" id="69" inputUnit="1" startAddress="0x0000048c" relocStartAddress="0x0000048c" imageSize="28" memSize="28">
+			<symbolRef id="78" name="_java_Lej_observable_ObserverProxy"/>
+		</block>
+		<block name=".soar.runtime" id="71" inputUnit="1" startAddress="0x000004a8" relocStartAddress="0x000004a8" imageSize="28" memSize="28">
+			<symbolRef id="79" name="_java_Lej_wadapps_management_BackgroundServicesListProxy"/>
+		</block>
+		<block name=".soar.runtime" id="72" inputUnit="1" startAddress="0x000004c4" relocStartAddress="0x000004c4" imageSize="40" memSize="40">
+			<symbolRef id="112" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method_stop_V"/>
+			<symbolRef id="113" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method_start_V"/>
+			<symbolRef id="114" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method_link_V"/>
+			<symbolRef id="115" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method_initialize_V"/>
+			<symbolRef id="80" name="_java_Lej_components_registry_BundleActivator"/>
+		</block>
+		<block name=".soar.runtime" id="76" inputUnit="1" startAddress="0x000004ec" relocStartAddress="0x000004ec" imageSize="24" memSize="24">
+			<symbolRef id="87" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_method_stop_V"/>
+			<symbolRef id="86" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_method_start_V"/>
+			<symbolRef id="85" name="_java_Lej_kf_FeatureEntryPoint"/>
+		</block>
+		<block name=".soar.runtime" id="93" inputUnit="1" startAddress="0x00000504" relocStartAddress="0x00000504" imageSize="8" memSize="8">
+			<symbolRef id="98" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_imtable_java_Lej_components_registry_BundleActivator"/>
+		</block>
+		<block name=".soar.runtime" id="94" inputUnit="1" startAddress="0x0000050c" relocStartAddress="0x0000050c" imageSize="4" memSize="4">
+			<symbolRef id="199" name="_java_Ljava_lang_Object"/>
+		</block>
+		<block name=".soar.runtime" id="96" inputUnit="1" startAddress="0x00000510" relocStartAddress="0x00000510" imageSize="8" memSize="8">
+			<symbolRef id="199" name="_java_Ljava_lang_Object"/>
+			<symbolRef id="106" name="_java_Ljava_util_logging_Handler"/>
+		</block>
+		<block name=".soar.runtime" id="97" inputUnit="1" startAddress="0x00000518" relocStartAddress="0x00000518" imageSize="40" memSize="40">
+			<symbolRef id="104" name="_java_Ljava_util_TimerTask_method_cancel_Z"/>
+			<symbolRef id="103" name="_java_Lmoc_lab_MainActivity$1_method_run_V"/>
+			<symbolRef id="102" name="_java_Ljava_util_TimerTask_method_scheduledExecutionTime_J"/>
+			<symbolRef id="101" name="_java_Ljava_util_TimerTask_method_setScheduled_Ljava_util_Timer_J_J_Z_V"/>
+			<symbolRef id="100" name="_java_Ljava_util_TimerTask_method_setLaunched_V"/>
+			<symbolRef id="99" name="_java_Ljava_util_TimerTask_method_uncaughtException_Ljava_util_Timer_Ljava_lang_Throwable_V"/>
+			<symbolRef id="111" name="_java_Ljava_lang_Object_method_clone_Ljava_lang_Object"/>
+			<symbolRef id="110" name="_java_Ljava_lang_Object_method_equals_Ljava_lang_Object_Z"/>
+			<symbolRef id="109" name="_java_Ljava_lang_Object_method_hashCode_I"/>
+			<symbolRef id="108" name="_java_Ljava_lang_Object_method_toString_Ljava_lang_String"/>
+		</block>
+		<block name=".soar.runtime" id="101" inputUnit="1" startAddress="0x00000540" relocStartAddress="0x00000540" imageSize="8" memSize="8">
+			<symbolRef id="107" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_imtable_java_Lej_kf_FeatureEntryPoint"/>
+		</block>
+		<block name=".soar.runtime" id="102" inputUnit="1" startAddress="0x00000548" relocStartAddress="0x00000548" imageSize="4" memSize="4">
+			<symbolRef id="199" name="_java_Ljava_lang_Object"/>
+		</block>
+		<block name=".soar.runtime" id="103" inputUnit="1" startAddress="0x0000054c" relocStartAddress="0x0000054c" imageSize="32" memSize="32">
+			<symbolRef id="115" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method_initialize_V"/>
+			<symbolRef id="114" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method_link_V"/>
+			<symbolRef id="113" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method_start_V"/>
+			<symbolRef id="112" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method_stop_V"/>
+			<symbolRef id="111" name="_java_Ljava_lang_Object_method_clone_Ljava_lang_Object"/>
+			<symbolRef id="110" name="_java_Ljava_lang_Object_method_equals_Ljava_lang_Object_Z"/>
+			<symbolRef id="109" name="_java_Ljava_lang_Object_method_hashCode_I"/>
+			<symbolRef id="108" name="_java_Ljava_lang_Object_method_toString_Ljava_lang_String"/>
+		</block>
+		<block name=".soar.runtime.header" id="135" inputUnit="1" startAddress="0x0000056c" relocStartAddress="0x0000056c" imageSize="20" memSize="20">
+			<symbolRef id="179" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_nameinfo"/>
+			<symbolRef id="178" name="_java_Pproperties_PBO5.services.system.properties"/>
+			<symbolRef id="177" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint"/>
+			<symbolRef id="176" name="_java_Pproperties_PBO5.application.system.properties"/>
+			<symbolRef id="175" name="_java_Lej_util_logging_handler_DefaultHandler_method__4init_5_V"/>
+			<symbolRef id="174" name="_java_Lej_util_logging_handler_DefaultHandler_nameinfo"/>
+			<symbolRef id="173" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_method__4init_5_V"/>
+			<symbolRef id="172" name="_java_Lej_util_logging_handler_DefaultHandler"/>
+			<symbolRef id="171" name="_java_ALej_wadapps_app_BackgroundService_nameinfo"/>
+			<symbolRef id="170" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_method__4init_5_V"/>
+			<symbolRef id="169" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator_nameinfo"/>
+			<symbolRef id="168" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator"/>
+			<symbolRef id="167" name="_java_Pproperties_PBO5.services.bundles"/>
+			<symbolRef id="166" name="_java_Lej_wadapps_management_BackgroundServicesList_nameinfo"/>
+			<symbolRef id="165" name="_java_Lej_observable_Observer_nameinfo"/>
+			<symbolRef id="164" name="_java_Lej_wadapps_app_BackgroundService_nameinfo"/>
+			<symbolRef id="163" name="_timeStamp_high"/>
+			<symbolRef id="162" name="_timeStamp_low"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="12" inputUnit="1" startAddress="0x00000580" relocStartAddress="0x00000580" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="13" inputUnit="1" startAddress="0x0000058c" relocStartAddress="0x0000058c" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="23" inputUnit="1" startAddress="0x00000598" relocStartAddress="0x00000598" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+			<symbolRef id="15" name="_java_Pjava"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="24" inputUnit="1" startAddress="0x000005a4" relocStartAddress="0x000005a4" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+			<symbolRef id="16" name="_java_Pmoc"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="44" inputUnit="1" startAddress="0x000005b0" relocStartAddress="0x000005b0" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+			<symbolRef id="42" name="_java_Pjava_util"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="60" inputUnit="1" startAddress="0x000005bc" relocStartAddress="0x000005bc" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+			<symbolRef id="94" name="_java_Pej"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="68" inputUnit="1" startAddress="0x000005c8" relocStartAddress="0x000005c8" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="70" inputUnit="1" startAddress="0x000005d4" relocStartAddress="0x000005d4" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+			<symbolRef id="94" name="_java_Pej"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="74" inputUnit="1" startAddress="0x000005e0" relocStartAddress="0x000005e0" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+			<symbolRef id="83" name="_java_Pej_util"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="81" inputUnit="1" startAddress="0x000005ec" relocStartAddress="0x000005ec" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="86" inputUnit="1" startAddress="0x000005f8" relocStartAddress="0x000005f8" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+			<symbolRef id="96" name="_java_Pej_wadapps"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="88" inputUnit="1" startAddress="0x00000604" relocStartAddress="0x00000604" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+			<symbolRef id="94" name="_java_Pej"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="90" inputUnit="1" startAddress="0x00000610" relocStartAddress="0x00000610" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+			<symbolRef id="96" name="_java_Pej_wadapps"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="98" inputUnit="1" startAddress="0x0000061c" relocStartAddress="0x0000061c" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+			<symbolRef id="105" name="_java_Pej_util_logging"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="104" inputUnit="1" startAddress="0x00000628" relocStartAddress="0x00000628" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="107" inputUnit="1" startAddress="0x00000634" relocStartAddress="0x00000634" imageSize="12" memSize="12">
+			<symbolRef id="143" name=""/>
+			<symbolRef id="116" name="_java_P_1_1PBO5_1_1"/>
+		</block>
+		<block name=".soar.rodata.resourcenames" id="117" inputUnit="1" startAddress="0x00000640" relocStartAddress="0x00000640" imageSize="24" memSize="24">
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="128" name="_java_rodata_resource_java_Pproperties_PBO5.services.bundles"/>
+			<symbolRef id="141" name="_java_Pproperties"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.resourcenames" id="126" inputUnit="1" startAddress="0x00000658" relocStartAddress="0x00000658" imageSize="24" memSize="24">
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="137" name="_java_rodata_resource_java_Pproperties_PBO5.application.system.properties"/>
+			<symbolRef id="141" name="_java_Pproperties"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.resourcenames" id="128" inputUnit="1" startAddress="0x00000670" relocStartAddress="0x00000670" imageSize="24" memSize="24">
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="142" name="_java_rodata_resource_java_Pproperties_PBO5.services.system.properties"/>
+			<symbolRef id="141" name="_java_Pproperties"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="28" inputUnit="1" startAddress="0x00000688" relocStartAddress="0x00000688" imageSize="16" memSize="16">
+			<symbolRef id="122" name="_java_Pej_wadapps_app"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="32" inputUnit="1" startAddress="0x00000698" relocStartAddress="0x00000698" imageSize="16" memSize="16">
+			<symbolRef id="124" name="_java_Pej_observable"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="36" inputUnit="1" startAddress="0x000006a8" relocStartAddress="0x000006a8" imageSize="16" memSize="16">
+			<symbolRef id="126" name="_java_Pej_wadapps_management"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="41" inputUnit="1" startAddress="0x000006b8" relocStartAddress="0x000006b8" imageSize="16" memSize="16">
+			<symbolRef id="43" name="_java_Pmoc_lab"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="45" inputUnit="1" startAddress="0x000006c8" relocStartAddress="0x000006c8" imageSize="16" memSize="16">
+			<symbolRef id="43" name="_java_Pmoc_lab"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="61" inputUnit="1" startAddress="0x000006d8" relocStartAddress="0x000006d8" imageSize="16" memSize="16">
+			<symbolRef id="64" name="_java_Pjava_util_logging"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="114" inputUnit="1" startAddress="0x000006e8" relocStartAddress="0x000006e8" imageSize="16" memSize="16">
+			<symbolRef id="123" name="_java_Lej_wadapps_app_BackgroundService"/>
+			<symbolRef id="122" name="_java_Pej_wadapps_app"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="115" inputUnit="1" startAddress="0x000006f8" relocStartAddress="0x000006f8" imageSize="16" memSize="16">
+			<symbolRef id="125" name="_java_Lej_observable_Observer"/>
+			<symbolRef id="124" name="_java_Pej_observable"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="116" inputUnit="1" startAddress="0x00000708" relocStartAddress="0x00000708" imageSize="16" memSize="16">
+			<symbolRef id="127" name="_java_Lej_wadapps_management_BackgroundServicesList"/>
+			<symbolRef id="126" name="_java_Pej_wadapps_management"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="119" inputUnit="1" startAddress="0x00000718" relocStartAddress="0x00000718" imageSize="16" memSize="16">
+			<symbolRef id="168" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator"/>
+			<symbolRef id="144" name="_java_P_1_1PBO5_1_1_generated"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="121" inputUnit="1" startAddress="0x00000728" relocStartAddress="0x00000728" imageSize="16" memSize="16">
+			<symbolRef id="131" name="_java_ALej_wadapps_app_BackgroundService"/>
+			<symbolRef id="164" name="_java_Lej_wadapps_app_BackgroundService_nameinfo"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="124" inputUnit="1" startAddress="0x00000738" relocStartAddress="0x00000738" imageSize="16" memSize="16">
+			<symbolRef id="172" name="_java_Lej_util_logging_handler_DefaultHandler"/>
+			<symbolRef id="135" name="_java_Pej_util_logging_handler"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="129" inputUnit="1" startAddress="0x00000748" relocStartAddress="0x00000748" imageSize="16" memSize="16">
+			<symbolRef id="177" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint"/>
+			<symbolRef id="144" name="_java_P_1_1PBO5_1_1_generated"/>
+			<symbolRef id="143" name=""/>
+		</block>
+		<block name=".soar.rodata.immutable" id="49" inputUnit="1" startAddress="0x00000758" relocStartAddress="0x00000758" imageSize="56" memSize="56">
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="232" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="50" inputUnit="1" startAddress="0x00000790" relocStartAddress="0x00000790" imageSize="24" memSize="24">
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="232" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="51" inputUnit="1" startAddress="0x000007a8" relocStartAddress="0x000007a8" imageSize="24" memSize="24">
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="232" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="52" inputUnit="1" startAddress="0x000007c0" relocStartAddress="0x000007c0" imageSize="28" memSize="28">
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="232" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="53" inputUnit="1" startAddress="0x000007dc" relocStartAddress="0x000007dc" imageSize="28" memSize="28">
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="232" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="54" inputUnit="1" startAddress="0x000007f8" relocStartAddress="0x000007f8" imageSize="16" memSize="16">
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="232" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="66" inputUnit="1" startAddress="0x00000808" relocStartAddress="0x00000808" imageSize="36" memSize="36">
+			<symbolRef id="76" name="_java_rodata_immutable__java_AC4"/>
+			<symbolRef id="75" name="_java_rodata_immutable__java_AC5"/>
+			<symbolRef id="74" name="_java_rodata_immutable__java_AC6"/>
+			<symbolRef id="73" name="_java_rodata_immutable__java_AC7"/>
+			<symbolRef id="72" name="_java_rodata_immutable__java_AC8"/>
+			<symbolRef id="71" name="_java_rodata_immutable__java_AC9"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="233" name="_java_AAC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="82" inputUnit="1" startAddress="0x0000082c" relocStartAddress="0x0000082c" imageSize="20" memSize="20">
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="232" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="83" inputUnit="1" startAddress="0x00000840" relocStartAddress="0x00000840" imageSize="24" memSize="24">
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="232" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="84" inputUnit="1" startAddress="0x00000858" relocStartAddress="0x00000858" imageSize="12" memSize="12">
+			<symbolRef id="92" name="_java_rodata_immutable__java_AAC3"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="91" name="_java_Lcom_is2t_kf_PrincipalData"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="85" inputUnit="1" startAddress="0x00000864" relocStartAddress="0x00000864" imageSize="36" memSize="36">
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="230" name="_java_AB"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="108" inputUnit="1" startAddress="0x00000888" relocStartAddress="0x00000888" imageSize="24" memSize="24">
+			<symbolRef id="121" name="_java_rodata_immutable__java_AB1"/>
+			<symbolRef id="120" name="_java_rodata_immutable__java_Lcom_is2t_kf_PrincipalData2"/>
+			<symbolRef id="119" name="_java_rodata_immutable__java_AC10"/>
+			<symbolRef id="118" name="_java_rodata_immutable__java_AC11"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="117" name="_java_Lcom_is2t_kf_ModuleData"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="112" inputUnit="1" startAddress="0x000008a0" relocStartAddress="0x000008a0" imageSize="16" memSize="16">
+			<symbolRef id="189" name="_java_internStrings_start"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="234" name="_java_ALjava_lang_String"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="113" inputUnit="1" startAddress="0x000008b0" relocStartAddress="0x000008b0" imageSize="16" memSize="16">
+			<symbolRef id="189" name="_java_internStrings_start"/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="236" name="_java_ALjava_lang_Object"/>
+		</block>
+		<block name=".soar.rodata" id="136" inputUnit="1" startAddress="0x000008c0" relocStartAddress="0x000008c0" imageSize="72" memSize="72">
+			<symbolRef id="181" name=""/>
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="201" name="_java_Ljava_lang_String"/>
+		</block>
+		<block name=".soar.text._java_Lej_observable_ObserverProxy_method_update_V" id="0" inputUnit="1" startAddress="0x00000908" relocStartAddress="0x00000908" imageSize="36" memSize="36">
+			<symbolRef id="13" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="1" name="_java_Lej_observable_ObserverProxy_method_update_V"/>
+			<symbolRef id="78" name="_java_Lej_observable_ObserverProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_management_BackgroundServicesListProxy_method_addObserver_Lej_observable_Observer_V" id="2" inputUnit="1" startAddress="0x0000092c" relocStartAddress="0x0000092c" imageSize="40" memSize="40">
+			<symbolRef id="13" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="3" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_addObserver_Lej_observable_Observer_V"/>
+			<symbolRef id="241" name="_java_Ljava_lang_Throwable_method_printStackTrace_V"/>
+			<symbolRef id="79" name="_java_Lej_wadapps_management_BackgroundServicesListProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_management_BackgroundServicesListProxy_method_deleteObserver_Lej_observable_Observer_V" id="3" inputUnit="1" startAddress="0x00000954" relocStartAddress="0x00000954" imageSize="40" memSize="40">
+			<symbolRef id="13" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="4" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_deleteObserver_Lej_observable_Observer_V"/>
+			<symbolRef id="241" name="_java_Ljava_lang_Throwable_method_printStackTrace_V"/>
+			<symbolRef id="79" name="_java_Lej_wadapps_management_BackgroundServicesListProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_management_BackgroundServicesListProxy_method_add_Lej_wadapps_app_BackgroundService_V" id="4" inputUnit="1" startAddress="0x0000097c" relocStartAddress="0x0000097c" imageSize="40" memSize="40">
+			<symbolRef id="13" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="5" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_add_Lej_wadapps_app_BackgroundService_V"/>
+			<symbolRef id="241" name="_java_Ljava_lang_Throwable_method_printStackTrace_V"/>
+			<symbolRef id="79" name="_java_Lej_wadapps_management_BackgroundServicesListProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_management_BackgroundServicesListProxy_method_remove_Lej_wadapps_app_BackgroundService_V" id="5" inputUnit="1" startAddress="0x000009a4" relocStartAddress="0x000009a4" imageSize="40" memSize="40">
+			<symbolRef id="13" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="6" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_remove_Lej_wadapps_app_BackgroundService_V"/>
+			<symbolRef id="241" name="_java_Ljava_lang_Throwable_method_printStackTrace_V"/>
+			<symbolRef id="79" name="_java_Lej_wadapps_management_BackgroundServicesListProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_management_BackgroundServicesListProxy_method_getBackgroundServices_ALej_wadapps_app_BackgroundService" id="6" inputUnit="1" startAddress="0x000009cc" relocStartAddress="0x000009cc" imageSize="64" memSize="64">
+			<symbolRef id="13" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="7" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_getBackgroundServices_ALej_wadapps_app_BackgroundService"/>
+			<symbolRef id="131" name="_java_ALej_wadapps_app_BackgroundService"/>
+			<symbolRef id="241" name="_java_Ljava_lang_Throwable_method_printStackTrace_V"/>
+			<symbolRef id="79" name="_java_Lej_wadapps_management_BackgroundServicesListProxy"/>
+		</block>
+		<block name=".soar.text._java_Lmoc_lab_MainActivity$1_method__4init_5_Lmoc_lab_MainActivity_V" id="16" inputUnit="1" startAddress="0x00000a0c" relocStartAddress="0x00000a0c" imageSize="20" memSize="20">
+			<symbolRef id="0" name="_java_Ljava_util_TimerTask_method__4init_5_V"/>
+			<symbolRef id="81" name="_java_Lmoc_lab_MainActivity$1"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_app_BackgroundServiceProxy_method_onStop_V" id="20" inputUnit="1" startAddress="0x00000a20" relocStartAddress="0x00000a20" imageSize="40" memSize="40">
+			<symbolRef id="13" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="38" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStop_V"/>
+			<symbolRef id="241" name="_java_Ljava_lang_Throwable_method_printStackTrace_V"/>
+			<symbolRef id="77" name="_java_Lej_wadapps_app_BackgroundServiceProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_app_BackgroundServiceProxy_method_onStart_V" id="21" inputUnit="1" startAddress="0x00000a48" relocStartAddress="0x00000a48" imageSize="40" memSize="40">
+			<symbolRef id="13" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="39" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStart_V"/>
+			<symbolRef id="241" name="_java_Ljava_lang_Throwable_method_printStackTrace_V"/>
+			<symbolRef id="77" name="_java_Lej_wadapps_app_BackgroundServiceProxy"/>
+		</block>
+		<block name=".soar.text._java_Lmoc_lab_MainActivity_method_onStop_V" id="26" inputUnit="1" startAddress="0x00000a70" relocStartAddress="0x00000a70" imageSize="8" memSize="8">
+			<symbolRef id="89" name="_java_Lmoc_lab_MainActivity"/>
+		</block>
+		<block name=".soar.text._java_Lmoc_lab_MainActivity_method_onStart_V" id="27" inputUnit="1" startAddress="0x00000a78" relocStartAddress="0x00000a78" imageSize="116" memSize="116">
+			<symbolRef id="25" name="_java_Ljava_util_Timer_method_schedule_Ljava_util_TimerTask_J_V"/>
+			<symbolRef id="24" name="_java_Lmoc_lab_MainActivity$1_method__4init_5_Lmoc_lab_MainActivity_V"/>
+			<symbolRef id="81" name="_java_Lmoc_lab_MainActivity$1"/>
+			<symbolRef id="23" name="_java_Ljava_util_Timer_method__4init_5_V"/>
+			<symbolRef id="22" name="_java_Ljava_util_Timer"/>
+			<symbolRef id="21" name="_java_Lej_hal_gpio_GPIO_method_setMode_I_I_Lej_hal_gpio_GPIO$Mode_V"/>
+			<symbolRef id="20" name="_java_Lej_hal_gpio_GPIO$Mode_field_DIGITAL_1INPUT_Lej_hal_gpio_GPIO$Mode"/>
+			<symbolRef id="19" name="_java_Lej_hal_gpio_GPIO$Mode_field_DIGITAL_1OUTPUT_Lej_hal_gpio_GPIO$Mode"/>
+			<symbolRef id="89" name="_java_Lmoc_lab_MainActivity"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_app_BackgroundServiceProxy_method__4init_5_V" id="31" inputUnit="1" startAddress="0x00000aec" relocStartAddress="0x00000aec" imageSize="20" memSize="20">
+			<symbolRef id="31" name="_java_Lej_kf_Proxy_method__4init_5_V"/>
+			<symbolRef id="77" name="_java_Lej_wadapps_app_BackgroundServiceProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_observable_ObserverProxy_method__4init_5_V" id="35" inputUnit="1" startAddress="0x00000b00" relocStartAddress="0x00000b00" imageSize="20" memSize="20">
+			<symbolRef id="31" name="_java_Lej_kf_Proxy_method__4init_5_V"/>
+			<symbolRef id="78" name="_java_Lej_observable_ObserverProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_management_BackgroundServicesListProxy_method__4init_5_V" id="39" inputUnit="1" startAddress="0x00000b14" relocStartAddress="0x00000b14" imageSize="20" memSize="20">
+			<symbolRef id="31" name="_java_Lej_kf_Proxy_method__4init_5_V"/>
+			<symbolRef id="79" name="_java_Lej_wadapps_management_BackgroundServicesListProxy"/>
+		</block>
+		<block name=".soar.text._java_Lmoc_lab_MainActivity_method_setColors_Z_Z_Z_V" id="59" inputUnit="1" startAddress="0x00000b28" relocStartAddress="0x00000b28" imageSize="48" memSize="48">
+			<symbolRef id="63" name="_java_Lej_hal_gpio_GPIO_method_setDigitalValue_I_I_Z_V"/>
+			<symbolRef id="89" name="_java_Lmoc_lab_MainActivity"/>
+		</block>
+		<block name=".soar.text._java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_method_start_V" id="62" inputUnit="1" startAddress="0x00000b58" relocStartAddress="0x00000b58" imageSize="44" memSize="44">
+			<symbolRef id="65" name="_java_Lej_components_registry_util_BundleRegistryHelper_method_startup_Lej_components_registry_BundleActivator_V"/>
+			<symbolRef id="66" name="_java_Lej_components_registry_BundleRegistry"/>
+			<symbolRef id="88" name="_java_Lej_components_dependencyinjection_ServiceLoaderFactory_method_getServiceLoader_Lej_components_dependencyinjection_ServiceLoader"/>
+			<symbolRef id="177" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint"/>
+		</block>
+		<block name=".soar.text._java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_method_stop_V" id="63" inputUnit="1" startAddress="0x00000b84" relocStartAddress="0x00000b84" imageSize="48" memSize="48">
+			<symbolRef id="66" name="_java_Lej_components_registry_BundleRegistry"/>
+			<symbolRef id="88" name="_java_Lej_components_dependencyinjection_ServiceLoaderFactory_method_getServiceLoader_Lej_components_dependencyinjection_ServiceLoader"/>
+			<symbolRef id="177" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint"/>
+		</block>
+		<block name=".soar.text._java_Lmoc_lab_MainActivity_method__4init_5_V" id="65" inputUnit="1" startAddress="0x00000bb4" relocStartAddress="0x00000bb4" imageSize="48" memSize="48">
+			<symbolRef id="134" name="_java_Ljava_lang_Object_method__4init_5_V"/>
+			<symbolRef id="89" name="_java_Lmoc_lab_MainActivity"/>
+		</block>
+		<block name=".soar.text._java_Lmoc_lab_MainActivity$1_method_run_V" id="73" inputUnit="1" startAddress="0x00000be4" relocStartAddress="0x00000be4" imageSize="48" memSize="48">
+			<symbolRef id="82" name="_java_Lmoc_lab_MainActivity_method_setColors_Z_Z_Z_V"/>
+			<symbolRef id="81" name="_java_Lmoc_lab_MainActivity$1"/>
+		</block>
+		<block name=".soar.text._java_L_1_1PBO5_1_1_generated_PBO5Activator_method_stop_V" id="77" inputUnit="1" startAddress="0x00000c14" relocStartAddress="0x00000c14" imageSize="48" memSize="48">
+			<symbolRef id="127" name="_java_Lej_wadapps_management_BackgroundServicesList"/>
+			<symbolRef id="88" name="_java_Lej_components_dependencyinjection_ServiceLoaderFactory_method_getServiceLoader_Lej_components_dependencyinjection_ServiceLoader"/>
+			<symbolRef id="168" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator"/>
+		</block>
+		<block name=".soar.text._java_L_1_1PBO5_1_1_generated_PBO5Activator_method_start_V" id="78" inputUnit="1" startAddress="0x00000c44" relocStartAddress="0x00000c44" imageSize="8" memSize="8">
+			<symbolRef id="168" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator"/>
+		</block>
+		<block name=".soar.text._java_L_1_1PBO5_1_1_generated_PBO5Activator_method_link_V" id="79" inputUnit="1" startAddress="0x00000c4c" relocStartAddress="0x00000c4c" imageSize="48" memSize="48">
+			<symbolRef id="127" name="_java_Lej_wadapps_management_BackgroundServicesList"/>
+			<symbolRef id="88" name="_java_Lej_components_dependencyinjection_ServiceLoaderFactory_method_getServiceLoader_Lej_components_dependencyinjection_ServiceLoader"/>
+			<symbolRef id="168" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator"/>
+		</block>
+		<block name=".soar.text._java_L_1_1PBO5_1_1_generated_PBO5Activator_method_initialize_V" id="80" inputUnit="1" startAddress="0x00000c7c" relocStartAddress="0x00000c7c" imageSize="28" memSize="28">
+			<symbolRef id="90" name="_java_Lmoc_lab_MainActivity_method__4init_5_V"/>
+			<symbolRef id="89" name="_java_Lmoc_lab_MainActivity"/>
+			<symbolRef id="168" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator"/>
+		</block>
+		<block name=".soar.text._java_Ljava_util_logging_Handler_method__4init_5_V" id="99" inputUnit="1" startAddress="0x00000c98" relocStartAddress="0x00000c98" imageSize="20" memSize="20">
+			<symbolRef id="134" name="_java_Ljava_lang_Object_method__4init_5_V"/>
+			<symbolRef id="106" name="_java_Ljava_util_logging_Handler"/>
+		</block>
+		<block name=".soar.text._java_L_1_1PBO5_1_1_generated_PBO5Activator_method__4init_5_V" id="120" inputUnit="1" startAddress="0x00000cac" relocStartAddress="0x00000cac" imageSize="20" memSize="20">
+			<symbolRef id="134" name="_java_Ljava_lang_Object_method__4init_5_V"/>
+			<symbolRef id="168" name="_java_L_1_1PBO5_1_1_generated_PBO5Activator"/>
+		</block>
+		<block name=".soar.text._java_L_1_1PBO5_1_1_generated_PBO5EntryPoint_method__4init_5_V" id="123" inputUnit="1" startAddress="0x00000cc0" relocStartAddress="0x00000cc0" imageSize="20" memSize="20">
+			<symbolRef id="134" name="_java_Ljava_lang_Object_method__4init_5_V"/>
+			<symbolRef id="177" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint"/>
+		</block>
+		<block name=".soar.text._java_Lej_util_logging_handler_DefaultHandler_method__4init_5_V" id="125" inputUnit="1" startAddress="0x00000cd4" relocStartAddress="0x00000cd4" imageSize="20" memSize="20">
+			<symbolRef id="136" name="_java_Ljava_util_logging_Handler_method__4init_5_V"/>
+			<symbolRef id="172" name="_java_Lej_util_logging_handler_DefaultHandler"/>
+		</block>
+		<block name=".soar.text" id="133" inputUnit="1" startAddress="0x00000ce8" relocStartAddress="0x00000ce8" imageSize="24" memSize="24"></block>
+		<block name=".soar.text" id="134" inputUnit="1" startAddress="0x00000d00" relocStartAddress="0x00000d00" imageSize="24" memSize="24"></block>
+		<block name=".soar.rodata" id="106" inputUnit="1" startAddress="0x00000d18" relocStartAddress="0x00000d18" imageSize="360" memSize="360"></block>
+		<block name=".soar.rodata.internSymbol" id="131" inputUnit="1" startAddress="0x00000e80" relocStartAddress="0x00000e80" imageSize="64" memSize="64">
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="232" name="_java_AC"/>
+		</block>
+	</blockGroup>
+	<blockGroup startAddress="0x00000000" relocStartAddress="0x00000000" name=".bss.soar.feature" relocName=".bss.soar.feature" size="16">
+		<block name=".bss.soar.feature" id="109" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="16"></block>
+	</blockGroup>
+	<blockGroup startAddress="0x00000000" relocStartAddress="0x00000000" name=".rodata.soar.features" relocName=".rodata.soar.features" size="4">
+		<block name=".rodata.soar.features" id="111" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="4" memSize="4"></block>
+	</blockGroup>
+	<blockGroup startAddress="0x00000000" relocStartAddress="0x00000000" name=".rodata.soar.feature" relocName=".rodata.soar.feature" size="72">
+		<block name=".rodata.soar.feature" id="130" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="72" memSize="72">
+			<symbolRef id="159" name=""/>
+			<symbolRef id="158" name=""/>
+			<symbolRef id="157" name="_java_statics_refls_kernel_start_PBO5"/>
+			<symbolRef id="156" name="__icetea___6bss_6soar_6REF_6PBO5$$Limit"/>
+			<symbolRef id="155" name="__icetea___6bss_6soar_6REF_6PBO5$$Base"/>
+			<symbolRef id="154" name="__icetea___6bss_6soar_6BT8_6PBO5$$Limit"/>
+			<symbolRef id="153" name="__icetea___6bss_6soar_6BT8_6PBO5$$Base"/>
+			<symbolRef id="152" name="__icetea___6bss_6soar_6BT4_6PBO5$$Limit"/>
+			<symbolRef id="151" name="__icetea___6bss_6soar_6BT4_6PBO5$$Base"/>
+			<symbolRef id="150" name="__icetea___6bss_6soar_6BT2_6PBO5$$Limit"/>
+			<symbolRef id="149" name="__icetea___6bss_6soar_6BT2_6PBO5$$Base"/>
+			<symbolRef id="148" name="__icetea___6bss_6soar_6BT1_6PBO5$$Limit"/>
+			<symbolRef id="147" name="__icetea___6bss_6soar_6BT1_6PBO5$$Base"/>
+			<symbolRef id="146" name="_java_bss_feature0"/>
+			<symbolRef id="177" name="_java_L_1_1PBO5_1_1_generated_PBO5EntryPoint"/>
+			<symbolRef id="145" name="_java_rodata_immutable__java_Lcom_is2t_kf_ModuleData0"/>
+			<symbolRef id="182" name="_java_features_start"/>
+		</block>
+	</blockGroup>
+	<blockGroup startAddress="0x00000000" relocStartAddress="0x00000000" name=".rodata.soar.features" relocName=".rodata.soar.features" size="68">
+		<block name=".rodata.soar.features" id="132" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="68" memSize="68">
+			<symbolRef id="180" name="_java_rodata_feature0"/>
+			<symbolRef id="181" name=""/>
+			<symbolRef id="190" name="_java_internStrings_end"/>
+			<symbolRef id="189" name="_java_internStrings_start"/>
+			<symbolRef id="253" name="_java_immutables_end"/>
+			<symbolRef id="252" name="_java_immutables_start"/>
+			<symbolRef id="161" name=""/>
+			<symbolRef id="160" name=""/>
+			<symbolRef id="195" name="_java_resource_names_end"/>
+			<symbolRef id="194" name="_java_resource_names_start"/>
+			<symbolRef id="193" name="_java_class_names_end"/>
+			<symbolRef id="192" name="_java_class_names_start"/>
+			<symbolRef id="188" name="_java_header_types_end"/>
+			<symbolRef id="187" name="_java_header_types_start"/>
+			<symbolRef id="185" name="_java_soarsection_header_start"/>
+		</block>
+	</blockGroup>
+</lscmap>

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Application-Id: PBO5Morpion
+Application-Version: 0.1.0
+Application-PrintableName: PBO5Morpion
+Application-Description: PBO5Morpion
+

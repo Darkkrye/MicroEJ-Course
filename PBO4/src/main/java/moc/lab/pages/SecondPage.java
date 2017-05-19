@@ -1,7 +1,12 @@
 package moc.lab.pages;
 
+import java.io.IOException;
+
 import ej.components.dependencyinjection.ServiceLoaderFactory;
 import ej.exit.ExitHandler;
+import ej.microui.display.GraphicsContext;
+import ej.microui.display.Image;
+import ej.style.background.SimpleImageBackground;
 import ej.widget.composed.Button;
 import ej.widget.container.Split;
 import ej.widget.listener.OnClickListener;

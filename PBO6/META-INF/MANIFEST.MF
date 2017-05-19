@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Application-Id: PBO6
+Application-Version: 0.1.0
+Application-PrintableName: PBO6
+Application-Description: PBO6
+Application-Activities: moc.lab.Program

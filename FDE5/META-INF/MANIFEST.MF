@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Application-Id: FDE5
+Application-Version: 0.1.0
+Application-PrintableName: FDE5
+Application-Description: FDE5
+Application-Activities: moc.lab.Program
+
+
+

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Application-Id: PBO5
+Application-Version: 0.1.0
+Application-PrintableName: PBO5
+Application-Description: PBO5
+Application-BackgroundServices: moc.lab.MainActivity

@@ -1,11 +1,15 @@
 package moc.lab;
 
+import java.io.IOException;
+
 import ej.microui.MicroUI;
 import ej.microui.display.Colors;
 import ej.microui.display.GraphicsContext;
+import ej.microui.display.Image;
 import ej.mwt.Desktop;
 import ej.mwt.Panel;
 import ej.style.Stylesheet;
+import ej.style.background.SimpleImageBackground;
 import ej.style.background.SimpleRoundedPlainBackground;
 import ej.style.outline.SimpleOutline;
 import ej.style.selector.ClassSelector;
@@ -66,6 +70,18 @@ public class MyActivity implements Activity {
 		myStyle.setBackgroundColor(Colors.TEAL);
 		sts.addRule(new TypeSelector(Label.class), myStyle);*/
 		
+		SimpleImageBackground myBackgroundImage = null;
+		
+		try {
+			myBackgroundImage = new SimpleImageBackground(Image.createImage("/images/image.png"), GraphicsContext.BOTTOM | GraphicsContext.HCENTER, true);
+		} catch (IllegalArgumentException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		Stylesheet sts = StyleHelper.getStylesheet();
 		// BUTTON Style based on Label & Button classes
 		EditableStyle btnStyle = new EditableStyle();
@@ -99,9 +115,10 @@ public class MyActivity implements Activity {
 		SimpleRoundedPlainBackground myBackground2 = new SimpleRoundedPlainBackground(20);
 		
 		btnStyle2.setBackground(myBackground2);
-		btnStyle2.setBackgroundColor(Colors.BLACK);
-		btnStyle2.setForegroundColor(Colors.GRAY);
+		btnStyle2.setBackgroundColor(Colors.TEAL);
+		btnStyle2.setForegroundColor(Colors.BLACK);
 		btnStyle2.setAlignment(GraphicsContext.HCENTER | GraphicsContext.VCENTER);
+		btnStyle2.setBackground(myBackgroundImage);
 		
 		ClassSelector firstButton = new ClassSelector("BUTTON1");
 		ChildCombinator parent2 = new ChildCombinator(firstButton, labelSelector);
